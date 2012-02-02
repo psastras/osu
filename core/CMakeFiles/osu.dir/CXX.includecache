@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/psastras/Projects/osu/src/beatmap.cpp
+beatmap.h
+C:/Users/psastras/Projects/osu/src/beatmap.h
+string
+-
+iostream
+-
+sstream
+-
+algorithm
+-
+
+C:/Users/psastras/Projects/osu/src/beatmap.h
+string
+-
+vector
+-
+
