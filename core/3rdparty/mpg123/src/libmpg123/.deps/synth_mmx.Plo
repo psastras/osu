@@ -1,0 +1,7 @@
+synth_mmx.lo: synth_mmx.S mangle.h ../../src/config.h intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

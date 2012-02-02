@@ -1,13 +1,11 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/osu.dir/main.cpp.obj"
-  "CMakeFiles/osu.dir/beatmap.cpp.obj"
-  "CMakeFiles/osu.dir/primitive.cpp.obj"
-  "CMakeFiles/osu.dir/shaderprogram.cpp.obj"
-  "CMakeFiles/osu.dir/vsml.cpp.obj"
-  "bin/osu.pdb"
-  "bin/osu.exe"
-  "bin/osu.exe.manifest"
-  "bin/libosu.dll.a"
+  "CMakeFiles/osu.dir/main.cpp.o"
+  "CMakeFiles/osu.dir/beatmap.cpp.o"
+  "CMakeFiles/osu.dir/primitive.cpp.o"
+  "CMakeFiles/osu.dir/shaderprogram.cpp.o"
+  "CMakeFiles/osu.dir/vsml.cpp.o"
+  "bin/libosu.pdb"
+  "bin/libosu.a"
 )
 
 # Per-language clean rules from dependency scanning.

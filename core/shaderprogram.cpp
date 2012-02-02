@@ -1,7 +1,7 @@
 #include <GL/glew.h>
 #include <iostream>
 #include "shaderprogram.h"
-#include "VSML.h"
+#include "vsml.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

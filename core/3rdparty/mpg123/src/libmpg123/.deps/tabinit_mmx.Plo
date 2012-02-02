@@ -1,0 +1,7 @@
+tabinit_mmx.lo: tabinit_mmx.S mangle.h ../../src/config.h intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

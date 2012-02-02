@@ -1,0 +1,7 @@
+dct64_3dnowext.lo: dct64_3dnowext.S mangle.h ../../src/config.h intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

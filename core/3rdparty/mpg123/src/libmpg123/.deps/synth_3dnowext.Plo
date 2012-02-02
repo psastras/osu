@@ -1,0 +1,10 @@
+synth_3dnowext.lo: synth_3dnowext.S mangle.h ../../src/config.h intsym.h \
+ synth_sse3d.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:
+
+synth_sse3d.h:

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/psastras/Projects/osu/src/beatmap.cpp
+/home/psastras/osu/core/beatmap.cpp
 beatmap.h
-C:/Users/psastras/Projects/osu/src/beatmap.h
+/home/psastras/osu/core/beatmap.h
 string
 -
 iostream
@@ -18,9 +18,19 @@ sstream
 algorithm
 -
 
-C:/Users/psastras/Projects/osu/src/beatmap.h
+/home/psastras/osu/core/beatmap.h
 string
 -
 vector
+-
+
+/home/psastras/osu/core/main.cpp
+beatmap.h
+/home/psastras/osu/core/beatmap.h
+fstream
+-
+sstream
+-
+iostream
 -
 

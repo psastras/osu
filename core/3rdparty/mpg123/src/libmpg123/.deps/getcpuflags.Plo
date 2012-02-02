@@ -1,0 +1,7 @@
+getcpuflags.lo: getcpuflags.S mangle.h ../../src/config.h intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

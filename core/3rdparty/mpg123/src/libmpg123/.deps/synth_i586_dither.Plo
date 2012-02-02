@@ -1,0 +1,8 @@
+synth_i586_dither.lo: synth_i586_dither.S mangle.h ../../src/config.h \
+ intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

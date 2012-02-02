@@ -1,15 +1,18 @@
 cmake_minimum_required(VERSION 2.6)
 project(osu)
+
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 set(EXECUTABLE_OUTPUT_PATH bin)
 set(LIBRARY_OUTPUT_PATH  bin)
 set(CMAKE_BINARY_DIR obj)
+
 #find_package(PNG REQUIRED)
-find_package(OpenGL REQUIRED)
+#find_package(OpenGL REQUIRED)
 message(STATUS "Looking for GLEW")
 find_package(GLEW REQUIRED)
 if(NOT GLEW_FOUND)
-        message(FATAL_ERROR "Looking for GLEW - not found")
+		message(FATAL_ERROR "Looking for GLEW - not found")
 endif(NOT GLEW_FOUND)
 # use, i.e. don't skip the full RPATH for the build tree
 SET(CMAKE_SKIP_BUILD_RPATH  FALSE)
@@ -33,4 +36,3 @@ ENDIF("${isSystemDir}" STREQUAL "-1")
 
 add_subdirectory(core)
 add_subdirectory(desktop)
-

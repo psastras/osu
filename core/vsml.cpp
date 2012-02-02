@@ -1,4 +1,4 @@
-#include "VSML.h"
+#include "vsml.h"
 #include <cmath>
 #include <math.h>
 

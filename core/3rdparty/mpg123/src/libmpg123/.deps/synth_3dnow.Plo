@@ -1,0 +1,7 @@
+synth_3dnow.lo: synth_3dnow.S mangle.h ../../src/config.h intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

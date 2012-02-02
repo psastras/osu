@@ -1,6 +1,6 @@
-The system is: Windows - 6.1 - x86
+The system is: Linux - 2.6.32-5-686-bigmem - i686
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: c:/QtSDK/mingw/bin/gcc.exe 
+Compiler: /usr/bin/gcc 
 Build flags: 
 Id flags: 
 
@@ -8,259 +8,235 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "C:/Users/psastras/Projects/osu/CMakeFiles/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/home/psastras/osu/CMakeFiles/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: c:/QtSDK/mingw/bin/g++.exe 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags: 
 
 The output was:
 0
+CMakeCXXCompilerId.cpp:79: warning: deprecated conversion from string constant to 'char*'
+CMakeCXXCompilerId.cpp:192: warning: deprecated conversion from string constant to 'char*'
+CMakeCXXCompilerId.cpp:193: warning: deprecated conversion from string constant to 'char*'
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "C:/Users/psastras/Projects/osu/CMakeFiles/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/home/psastras/osu/CMakeFiles/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp
+Change Dir: /home/psastras/osu/CMakeFiles/CMakeTmp
 
-Run Build Command:C:/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
-/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec.exe
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
-/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
-/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
-make[1]: Leaving directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
+make[1]: Entering directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/psastras/osu/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp
+Change Dir: /home/psastras/osu/CMakeFiles/CMakeTmp
 
-Run Build Command:C:/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
-/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
-Linking C executable cmTryCompileExec.exe
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
-/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
-/c/QtSDK/mingw/bin/gcc.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
-Using built-in specs.
-Target: mingw32
-Configured with: ../gcc-4.4.0/configure --enable-languages=c,ada,c++,fortran,java,objc,obj-c++ --disable-sjlj-exceptions --enable-shared --enable-libgcj --enable-libgomp --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --prefix=/mingw --with-gmp=/mingw/src/gmp/root --with-mpfr=/mingw/src/mpfr/root --build=mingw32
-Thread model: win32
-gcc version 4.4.0 (GCC) 
-COMPILER_PATH=c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/;c:/qtsdk/mingw/bin/../libexec/gcc/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/bin/
-LIBRARY_PATH=c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/;c:/qtsdk/mingw/bin/../lib/gcc/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-mtune=i386'
- c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe -Bdynamic -o cmTryCompileExec.exe c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0 -Lc:/qtsdk/mingw/bin/../lib/gcc -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../.. --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o
-make[1]: Leaving directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
+make[1]: Entering directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.5-8' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.4 --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.5 (Debian 4.4.5-8) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o
+make[1]: Leaving directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/psastras/osu/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:C:/msys/1.0/bin/make.exe "cmTryCompileExec/fast"]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
   ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
-  ignore line: [make[1]: Entering directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp']
-  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTryCompileExec.exe]
-  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a]
-  ignore line: [/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp]
-  ignore line: [/c/QtSDK/mingw/bin/gcc.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [make[1]: Entering directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../gcc-4.4.0/configure --enable-languages=c,ada,c++,fortran,java,objc,obj-c++ --disable-sjlj-exceptions --enable-shared --enable-libgcj --enable-libgomp --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --prefix=/mingw --with-gmp=/mingw/src/gmp/root --with-mpfr=/mingw/src/mpfr/root --build=mingw32]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 4.4.0 (GCC) ]
-  ignore line: [COMPILER_PATH=c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/]
-  ignore line: [c:/qtsdk/mingw/bin/../libexec/gcc/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-mtune=i386']
-  link line: [ c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe -Bdynamic -o cmTryCompileExec.exe c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0 -Lc:/qtsdk/mingw/bin/../lib/gcc -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../.. --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o]
-    arg [c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe] ==> ignore
-    arg [-Bdynamic] ==> ignore
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.5-8' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.4 --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.5 (Debian 4.4.5-8) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.5/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec.exe] ==> ignore
-    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o] ==> ignore
-    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o] ==> ignore
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0]
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc]
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib]
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTryCompileExec.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lmingw32] ==> lib [mingw32]
-    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-lmingw32] ==> lib [mingw32]
-    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o] ==> ignore
-  remove lib [gcc_eh]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o] ==> ignore
   remove lib [gcc]
-  remove lib [gcc_eh]
+  remove lib [gcc_s]
   remove lib [gcc]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0] ==> [c:/QtSDK/mingw/lib/gcc/mingw32/4.4.0]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc] ==> [c:/QtSDK/mingw/lib/gcc]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib] ==> [c:/QtSDK/mingw/mingw32/lib]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..] ==> [c:/QtSDK/mingw/lib]
-  implicit libs: [mingw32;moldname;mingwex;msvcrt;user32;kernel32;advapi32;shell32;mingw32;moldname;mingwex;msvcrt]
-  implicit dirs: [c:/QtSDK/mingw/lib/gcc/mingw32/4.4.0;c:/QtSDK/mingw/lib/gcc;c:/QtSDK/mingw/mingw32/lib;c:/QtSDK/mingw/lib]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.5;/usr/lib;/lib]
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp
+Change Dir: /home/psastras/osu/CMakeFiles/CMakeTmp
 
-Run Build Command:C:/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj
-/c/QtSDK/mingw/bin/g++.exe     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj -c /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec.exe
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
-/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
-/c/QtSDK/mingw/bin/g++.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
-make[1]: Leaving directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
+make[1]: Entering directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/psastras/osu/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++         CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp
+Change Dir: /home/psastras/osu/CMakeFiles/CMakeTmp
 
-Run Build Command:C:/msys/1.0/bin/make.exe "cmTryCompileExec/fast"
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj
-/c/QtSDK/mingw/bin/g++.exe     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTryCompileExec.exe
-"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
-/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
-/c/QtSDK/mingw/bin/g++.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
-Using built-in specs.
-Target: mingw32
-Configured with: ../gcc-4.4.0/configure --enable-languages=c,ada,c++,fortran,java,objc,obj-c++ --disable-sjlj-exceptions --enable-shared --enable-libgcj --enable-libgomp --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --prefix=/mingw --with-gmp=/mingw/src/gmp/root --with-mpfr=/mingw/src/mpfr/root --build=mingw32
-Thread model: win32
-gcc version 4.4.0 (GCC) 
-COMPILER_PATH=c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/;c:/qtsdk/mingw/bin/../libexec/gcc/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/bin/
-LIBRARY_PATH=c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/;c:/qtsdk/mingw/bin/../lib/gcc/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-shared-libgcc' '-mtune=i386'
- c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec.exe c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0 -Lc:/qtsdk/mingw/bin/../lib/gcc -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../.. --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o
-make[1]: Leaving directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp'
+make[1]: Entering directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.5-8' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.4 --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.5 (Debian 4.4.5-8) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o
+make[1]: Leaving directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/psastras/osu/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:C:/msys/1.0/bin/make.exe "cmTryCompileExec/fast"]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
   ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
-  ignore line: [make[1]: Entering directory `/c/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp']
-  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/c/QtSDK/mingw/bin/g++.exe     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTryCompileExec.exe]
-  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a]
-  ignore line: [/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp]
-  ignore line: [/c/QtSDK/mingw/bin/g++.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [make[1]: Entering directory `/gpfs/main/home/psastras/osu/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../gcc-4.4.0/configure --enable-languages=c,ada,c++,fortran,java,objc,obj-c++ --disable-sjlj-exceptions --enable-shared --enable-libgcj --enable-libgomp --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --prefix=/mingw --with-gmp=/mingw/src/gmp/root --with-mpfr=/mingw/src/mpfr/root --build=mingw32]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 4.4.0 (GCC) ]
-  ignore line: [COMPILER_PATH=c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/]
-  ignore line: [c:/qtsdk/mingw/bin/../libexec/gcc/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib/]
-  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-shared-libgcc' '-mtune=i386']
-  link line: [ c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec.exe c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0 -Lc:/qtsdk/mingw/bin/../lib/gcc -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../.. --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o]
-    arg [c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe] ==> ignore
-    arg [-Bdynamic] ==> ignore
-    arg [-u] ==> ignore
-    arg [___register_frame_info] ==> ignore
-    arg [-u] ==> ignore
-    arg [___deregister_frame_info] ==> ignore
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.5-8' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.4 --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.5 (Debian 4.4.5-8) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.5/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec.exe] ==> ignore
-    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o] ==> ignore
-    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o] ==> ignore
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0]
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc]
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib]
-    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTryCompileExec.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
-    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0] ==> [c:/QtSDK/mingw/lib/gcc/mingw32/4.4.0]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc] ==> [c:/QtSDK/mingw/lib/gcc]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib] ==> [c:/QtSDK/mingw/mingw32/lib]
-  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..] ==> [c:/QtSDK/mingw/lib]
-  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;user32;kernel32;advapi32;shell32;mingw32;moldname;mingwex;msvcrt]
-  implicit dirs: [c:/QtSDK/mingw/lib/gcc/mingw32/4.4.0;c:/QtSDK/mingw/lib/gcc;c:/QtSDK/mingw/mingw32/lib;c:/QtSDK/mingw/lib]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.5;/usr/lib;/lib]
 
 

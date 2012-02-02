@@ -1,0 +1,8 @@
+equalizer_3dnow.lo: equalizer_3dnow.S mangle.h ../../src/config.h \
+ intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

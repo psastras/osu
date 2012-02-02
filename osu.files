@@ -13,3 +13,11 @@ core/vsml.h
 core/vsml.cpp
 desktop/CMakeLists.txt
 desktop/main.cpp
+desktop/mainwindow.h
+desktop/mainwindow.cpp
+desktop/mainwindow.ui
+desktop/glwidget.h
+desktop/glwidget.cpp
+core/osugame.h
+core/osugame.cpp
+core/3rdparty/miniz/miniz.c

@@ -1,0 +1,7 @@
+dct36_3dnow.lo: dct36_3dnow.S mangle.h ../../src/config.h intsym.h
+
+mangle.h:
+
+../../src/config.h:
+
+intsym.h:

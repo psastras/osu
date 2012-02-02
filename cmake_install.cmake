@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/psastras/Projects/osu
+# Install script for directory: /home/psastras/osu
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/osu")
+  SET(CMAKE_INSTALL_PREFIX "/usr/local")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,9 +27,15 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
   ENDIF(COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
+# Install shared libraries without execute permission?
+IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  SET(CMAKE_INSTALL_SO_NO_EXE "1")
+ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/Users/psastras/Projects/osu/src/cmake_install.cmake")
+  INCLUDE("/home/psastras/osu/core/cmake_install.cmake")
+  INCLUDE("/home/psastras/osu/desktop/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -39,7 +45,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "C:/Users/psastras/Projects/osu/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/psastras/osu/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "C:/Users/psastras/Projects/osu/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/psastras/osu/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

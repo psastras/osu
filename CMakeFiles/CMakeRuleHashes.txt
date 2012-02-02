@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+407acc53aee45e4ab249ce1d81c46c5b desktop/moc_glwidget.cxx
+b4d89e221e54944716c475798dd8a8c7 desktop/moc_mainwindow.cxx
+e18afa770d4e1f1d5f332d09d43ce087 desktop/ui_mainwindow.h

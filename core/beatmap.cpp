@@ -5,11 +5,11 @@
 #include <sstream>
 #include <algorithm>
 
-static const std::string s_strHitObjects    = "[HitObjects]";
-static const std::string s_strMetadata      = "[Metadata]";
-static const std::string s_strDifficulty    = "[Difficulty]";
-static const std::string s_strGeneral       = "[General]";
-static const std::string s_strTimingPoints  = "[TimingPoints]";
+static const std::wstring s_strHitObjects    = L"[HitObjects]";
+static const std::wstring s_strMetadata      = L"[Metadata]";
+static const std::wstring s_strDifficulty    = L"[Difficulty]";
+static const std::wstring s_strGeneral       = L"[General]";
+static const std::wstring s_strTimingPoints  = L"[TimingPoints]";
 
 enum
 {
@@ -20,7 +20,7 @@ enum
     SECTION_TIMINGPOINTS    = 5
 };
 
-BeatMap::BeatMap(const std::string &src)
+BeatMap::BeatMap(const std::wstring &src)
 {
     this->parseBeatmap(src);
 }
@@ -29,25 +29,32 @@ BeatMap::~BeatMap()
 {
 }
 
-bool BeatMap::isSectionHeader(const std::string &line) const
+
+bool BeatMap::isSectionHeader(const std::wstring &line) const
 {
-    return line[0] == '[' && line[line.length() - 1] == ']';
+
+	std::wstring copy = line;
+	copy = trim(copy);
+	return line[0] == '[' && line[line.length() - 1] == ']';
 }
 
-void BeatMap::parseBeatmap(const std::string &src)
+void BeatMap::parseBeatmap(const std::wstring &src)
 {
-    std::istringstream iss(src);
-    std::string line;
+	std::wistringstream iss(src);
+	std::wstring line;
 
     int cursection = 0;
 
-    while(std::getline(iss, line))
-    {
+	while(std::getline(iss, line)) //this should trim newlines...?
+	{
+		if (line[line.length() - 1] == '\r' || line[line.length() - 1] == '\n')
+			line = line.substr(0, line.length() - 1);
 
         if(isSectionHeader(line))
         {
 
-            if(!s_strHitObjects.compare(line))
+
+			if(!s_strHitObjects.compare(line))
                 cursection = SECTION_HITOBJECTS;
             else if(!s_strMetadata.compare(line))
                 cursection = SECTION_METADATA;
@@ -83,30 +90,30 @@ void BeatMap::parseBeatmap(const std::string &src)
 
 }
 
-void BeatMap::parseMetadata(const std::string &line)
+void BeatMap::parseMetadata(const std::wstring &line)
 {
-    std::string token;
-    std::istringstream iss(line);
-    if(std::getline(iss, token, ':'))
+	std::wstring token;
+	std::wistringstream iss(line);
+	if(std::getline(iss, token, L':'))
     {
-        std::string value;
+		std::wstring value;
         std::getline(iss, value);
         std::transform(token.begin(), token.end(), token.begin(), ::tolower);
-        if(!token.compare("title")) m_metadata.title = trim(value);
-        else if(!token.compare("artist")) m_metadata.artist = trim(value);
+		if(!token.compare(L"title")) m_metadata.title = trim(value);
+		else if(!token.compare(L"artist")) m_metadata.artist = trim(value);
     }
 }
 
-void BeatMap::parseHitObject(const std::string &line)
+void BeatMap::parseHitObject(const std::wstring &line)
 {
     Beat b;
-    std::string token;
-    std::istringstream iss(line);
-    if(std::getline(iss, token, ',')) iss >> b.x;    // xcoord
-    if(std::getline(iss, token, ',')) iss >> b.y;    // ycoord
-    if(std::getline(iss, token, ',')) iss >> b.time; // time
-    if(std::getline(iss, token, ',')) iss >> b.type; // type
-    if(std::getline(iss, token, ',')) iss >> b.sound;// sound
+	std::wstring token;
+	std::wistringstream iss(line);
+	if(std::getline(iss, token, L',')) iss >> b.x;    // xcoord
+	if(std::getline(iss, token, L',')) iss >> b.y;    // ycoord
+	if(std::getline(iss, token, L',')) iss >> b.time; // time
+	if(std::getline(iss, token, L',')) iss >> b.type; // type
+	if(std::getline(iss, token, L',')) iss >> b.sound;// sound
 
     // further values specify slider information (@TODO: ex. bezier)
     switch(b.type)
@@ -124,70 +131,71 @@ void BeatMap::parseHitObject(const std::string &line)
     m_beats.push_back(b);
 }
 
-void BeatMap::parseGeneral(const std::string &line)
+void BeatMap::parseGeneral(const std::wstring &line)
 {
-    std::string token;
-    std::istringstream iss(line);
-    if(std::getline(iss, token, ':'))
+
+	std::wstring token;
+	std::wistringstream iss(line);
+	if(std::getline(iss, token, L':'))
     {
-        std::string value;
+		std::wstring value;
         std::getline(iss, value);
-        std::istringstream issv(value);
+		std::wistringstream issv(value);
         std::transform(token.begin(), token.end(), token.begin(), ::tolower);
-        if(!token.compare("audiofilename"))      m_general.filename = trim(value);
-        else if(!token.compare("audioleadin"))   issv >> m_general.leadin;
-        else if(!token.compare("previewtime"))   issv >> m_general.previewtime;
-        else if(!token.compare("countdown"))     issv >> m_general.countdown;
-        else if(!token.compare("previewtime"))   issv >> m_general.previewtime;
-        else if(!token.compare("stackleniency")) issv >> m_general.stackleniency;
+		if(!token.compare(L"audiofilename"))      m_general.filename = trim(value);
+		else if(!token.compare(L"audioleadin"))   issv >> m_general.leadin;
+		else if(!token.compare(L"previewtime"))   issv >> m_general.previewtime;
+		else if(!token.compare(L"countdown"))     issv >> m_general.countdown;
+		else if(!token.compare(L"previewtime"))   issv >> m_general.previewtime;
+		else if(!token.compare(L"stackleniency")) issv >> m_general.stackleniency;
     }
 }
 
-void BeatMap::parseDifficulty(const std::string &line)
+void BeatMap::parseDifficulty(const std::wstring &line)
 {
-    std::string token;
-    std::istringstream iss(line);
-    if(std::getline(iss, token, ':'))
+	std::wstring token;
+	std::wistringstream iss(line);
+	if(std::getline(iss, token, L':'))
     {
-        std::string value;
+		std::wstring value;
         std::getline(iss, value);
-        std::istringstream issv(value);
+		std::wistringstream issv(value);
         std::transform(token.begin(), token.end(), token.begin(), ::tolower);
-        if(!token.compare("hpdrainrate"))           issv >> m_difficulty.drain;
-        else if(!token.compare("circlesize"))       issv >> m_difficulty.circlesize;
-        else if(!token.compare("approachrate"))     issv >> m_difficulty.approach;
-        else if(!token.compare("slidermultiplier")) issv >> m_difficulty.slidermux;
-        else if(!token.compare("slidertickrate"))   issv >> m_difficulty.slidertick;
+		if(!token.compare(L"hpdrainrate"))           issv >> m_difficulty.drain;
+		else if(!token.compare(L"circlesize"))       issv >> m_difficulty.circlesize;
+		else if(!token.compare(L"approachrate"))     issv >> m_difficulty.approach;
+		else if(!token.compare(L"slidermultiplier")) issv >> m_difficulty.slidermux;
+		else if(!token.compare(L"slidertickrate"))   issv >> m_difficulty.slidertick;
     }
 }
 
-void BeatMap::parseTimingPoint(const std::string &line)
+void BeatMap::parseTimingPoint(const std::wstring &line)
 {
     TimingPoint tp;
 
-    std::string token;
-    std::istringstream iss(line);
+	std::wstring token;
+	std::wistringstream iss(line);
 
-    if(std::getline(iss, token, ','))
+	if(std::getline(iss, token, L','))
     {
-        std::istringstream issv(token);
+		std::wistringstream issv(token);
         issv >> tp.time;
     }
-    if(std::getline(iss, token, ','))
+	if(std::getline(iss, token, L','))
     {
-        std::istringstream issv(token);
+		std::wistringstream issv(token);
         issv >> tp.beatlength;
     }
 
     m_timingPoints.push_back(tp);
 }
 
-std::string &BeatMap::trim(std::string &s)
+std::wstring &BeatMap::trim(std::wstring &s) const
 {
      return ltrim(rtrim(s));
 }
 
-std::string &BeatMap::ltrim(std::string &s)
+std::wstring &BeatMap::ltrim(std::wstring &s) const
 {
     s.erase(s.begin(),
             std::find_if(s.begin(), s.end(),
@@ -195,7 +203,7 @@ std::string &BeatMap::ltrim(std::string &s)
     return s;
 }
 
-std::string &BeatMap::rtrim(std::string &s)
+std::wstring &BeatMap::rtrim(std::wstring &s) const
 {
     s.erase(std::find_if(s.rbegin(), s.rend(),
             std::not1(std::ptr_fun<int, int>(std::isspace))).base(),

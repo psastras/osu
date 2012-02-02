@@ -5,9 +5,9 @@
 int main(int argc, char *arg[])
 {
 
-    std::ifstream file("example.txt");
-    std::string line;
-    std::stringstream stream;
+	std::wfstream file("songs/Heaven/Envy - Heaven (Charles445) [Easy].osu");
+	std::wstring line;
+	std::wstringstream stream;
     if(file.is_open())
     {
         while(file.good())
@@ -15,12 +15,16 @@ int main(int argc, char *arg[])
             std::getline(file, line);
             stream << line << std::endl;
         }
+		file.close();
     }
-    file.close();
+	else
+	{
+		std::cerr << "Failed to open file." << std::endl;
+	}
 
     BeatMap *bm = new BeatMap(stream.str());
-    std::cout << bm->general().filename << std::endl;
-    std::cout << bm->timingpoints().size() << std::endl;
+	std::wcout << bm->general().filename << std::endl;
+	std::wcout << bm->timingpoints().size() << std::endl;
     delete bm;
 
     return 0;
