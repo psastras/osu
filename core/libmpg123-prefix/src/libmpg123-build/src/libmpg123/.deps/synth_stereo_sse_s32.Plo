@@ -1,0 +1,11 @@
+synth_stereo_sse_s32.lo: \
+ /home/psastras/osu/core/3rdparty/mpg123/src/libmpg123/synth_stereo_sse_s32.S \
+ /home/psastras/osu/core/3rdparty/mpg123/src/libmpg123/mangle.h \
+ ../../src/config.h \
+ /home/psastras/osu/core/3rdparty/mpg123/src/libmpg123/intsym.h
+
+/home/psastras/osu/core/3rdparty/mpg123/src/libmpg123/mangle.h:
+
+../../src/config.h:
+
+/home/psastras/osu/core/3rdparty/mpg123/src/libmpg123/intsym.h:

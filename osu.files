@@ -21,3 +21,8 @@ desktop/glwidget.cpp
 core/osugame.h
 core/osugame.cpp
 core/3rdparty/miniz/miniz.c
+core/3rdparty/install/include/mpg123.h
+core/3rdparty/install/include/GLES2/gl2.h
+core/3rdparty/install/include/GLES2/gl2platform.h
+core/3rdparty/install/include/GLES2/gl2ext.h
+core/3rdparty/install/include/KHR/khrplatform.h

@@ -1,2 +1,2 @@
-/usr/bin/ar cr bin/libcore.a  CMakeFiles/core.dir/main.cpp.o CMakeFiles/core.dir/beatmap.cpp.o CMakeFiles/core.dir/primitive.cpp.o CMakeFiles/core.dir/shaderprogram.cpp.o CMakeFiles/core.dir/vsml.cpp.o
+/usr/bin/ar cr bin/libcore.a  CMakeFiles/core.dir/main.cpp.o CMakeFiles/core.dir/beatmap.cpp.o CMakeFiles/core.dir/primitive.cpp.o CMakeFiles/core.dir/shaderprogram.cpp.o CMakeFiles/core.dir/vsml.cpp.o CMakeFiles/core.dir/osugame.cpp.o
 /usr/bin/ranlib bin/libcore.a

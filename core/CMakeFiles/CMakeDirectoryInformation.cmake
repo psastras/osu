@@ -3,14 +3,15 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/psastras/osu")
-SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/psastras/osu")
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/gpfs/main/home/psastras/osu")
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)
 
 # The C and CXX include file search paths:
 SET(CMAKE_C_INCLUDE_PATH
-  "/contrib/projects/glew/include"
+  "/home/psastras/osu/core/3rdparty/install/include"
+  "/home/psastras/osu/core"
   )
 SET(CMAKE_CXX_INCLUDE_PATH ${CMAKE_C_INCLUDE_PATH})
 SET(CMAKE_Fortran_INCLUDE_PATH ${CMAKE_C_INCLUDE_PATH})

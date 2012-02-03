@@ -1,0 +1,853 @@
+The system is: Linux - 2.6.32-5-686-bigmem - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.5-8' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.4 --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.5 (Debian 4.4.5-8) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i486-linux-gnu/4.4.5/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.5-8' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.4 --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.5 (Debian 4.4.5-8) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.5/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5 -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.5]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.5;/usr/lib;/lib]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG_LONG.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG_LONG.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_UINT.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_UINT.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_UINT.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/SIZEOF_UINT.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOIDP.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOIDP.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_VOIDP.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOIDP.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_W_EXTRA succeded with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/usr/bin/gcc   -Wextra   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -Wextra   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C SOURCE FILE Test HAVE_GCC_DESTRUCTOR succeded with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/usr/bin/gcc   -DHAVE_GCC_DESTRUCTOR   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DHAVE_GCC_DESTRUCTOR   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo() __attribute__((destructor));
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_VISIBILITY_SWITCH succeded with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/usr/bin/gcc   -fvisibility=internal   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -fvisibility=internal   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C SOURCE FILE Test HAVE_GCC_VISIBILITY succeded with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/usr/bin/gcc   -DHAVE_GCC_VISIBILITY   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DHAVE_GCC_VISIBILITY   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo() __attribute__((visibility("default")));
+                                     int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_GCC_FORMAT succeded with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/usr/bin/gcc   -DHAVE_GCC_FORMAT   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DHAVE_GCC_FORMAT   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo(const char *str, ...) __attribute__((format(printf, 1, 2)));
+                         int main() {return 0;}
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function powf exists in the m passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=powf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'powf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=powf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lm 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrtf exists in the m passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'sqrtf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=sqrtf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lm 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function acosf exists in the m passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=acosf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'acosf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=acosf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lm 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atanf exists in the m passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=atanf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'atanf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=atanf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lm 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fabsf exists in the m passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=fabsf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'fabsf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=fabsf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lm 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fesetround exists in the m passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=fesetround   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=fesetround   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lm 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=strtof   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=strtof   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=stat   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=stat   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'strcasecmp'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=strcasecmp   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'strncasecmp'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=strncasecmp   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'snprintf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=snprintf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'vsnprintf'
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=vsnprintf   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+File /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef isnan
+  cmakeRequireSymbol(0,&isnan);
+#endif
+  return 0;
+}
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=dlopen   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -ldl 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=gettimeofday   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=nanosleep   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD succeded with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/usr/bin/gcc   -pthread   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -pthread   CMakeFiles/cmTryCompileExec.dir/src.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthread 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_setschedparam exists in the pthread passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_setschedparam   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_setschedparam   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthread 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=clock_gettime   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lrt 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alsa/asoundlib.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snd_pcm_open exists in the asound passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_SHARED_FUNCTION_EXISTS=snd_pcm_open   -o CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.o   -c /home/psastras/osu/core/3rdparty/OpenAL/cmake/CheckSharedFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_SHARED_FUNCTION_EXISTS=snd_pcm_open   CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lasound 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/soundcard.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pulse/pulseaudio.h exists passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pa_context_new exists in the pulse passed with the following output:
+Change Dir: /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[3]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_SHARED_FUNCTION_EXISTS=pa_context_new   -o CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.o   -c /home/psastras/osu/core/3rdparty/OpenAL/cmake/CheckSharedFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_SHARED_FUNCTION_EXISTS=pa_context_new   CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpulse 
+make[4]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+

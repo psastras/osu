@@ -39,7 +39,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/psastras/osu
+CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/CMakeFiles /home/psastras/osu/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/CMakeFiles /gpfs/main/home/psastras/osu/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,32 @@ core/fast:
 .PHONY : core/fast
 
 #=============================================================================
+# Target rules for targets named libmpg123
+
+# Build rule for target.
+libmpg123: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libmpg123
+.PHONY : libmpg123
+
+# fast build rule for target.
+libmpg123/fast:
+	$(MAKE) -f core/CMakeFiles/libmpg123.dir/build.make core/CMakeFiles/libmpg123.dir/build
+.PHONY : libmpg123/fast
+
+#=============================================================================
+# Target rules for targets named libopenal
+
+# Build rule for target.
+libopenal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libopenal
+.PHONY : libopenal
+
+# fast build rule for target.
+libopenal/fast:
+	$(MAKE) -f core/CMakeFiles/libopenal.dir/build.make core/CMakeFiles/libopenal.dir/build
+.PHONY : libopenal/fast
+
+#=============================================================================
 # Target rules for targets named osu
 
 # Build rule for target.
@@ -130,6 +156,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core"
+	@echo "... libmpg123"
+	@echo "... libopenal"
 	@echo "... osu"
 .PHONY : help
 

@@ -1,7 +1,0 @@
-synth_i586.lo: synth_i586.S mangle.h ../../src/config.h intsym.h
-
-mangle.h:
-
-../../src/config.h:
-
-intsym.h:

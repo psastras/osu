@@ -20,63 +20,79 @@
           See implementations for more details.
 
           **/
-        class Primitive {
-          public:
+		class Primitive {
+		  public:
+			  ~Primitive();
 
-              /// The primitive destructor.  This will delete any existing
-              /// vbos associated with this primitive.
-              virtual ~Primitive();
+			  virtual void tesselate(Float3 tess, Float3 translate, Float3 scale) = 0; //tesselates and reuploads into vbo
+			  void draw(ShaderProgram *program);
 
-              /// Tesselates and reuploads into vbo.  Note that upon primitive
-              /// construction, this is automatically called.  You do not need to
-              /// call tesselate unless you wish to change the tesselation parameters.
-              virtual void tesselate(Float3 tess, Float3 translate, Float3 scale) = 0;
+			  GLuint vertexID() { return vertexId_; }
+			  GLuint indexID() { return indexId_; }
 
-              /// Draws the primitive with the given shader program applied.
-              /// Note that the shader program must be bound prior to calling this.
-              void draw(ShaderProgram *program) const;
+			  const Float3& scale() { return scale_; }
+			  const Float3& translate() { return scale_; }
+		  protected:
+			  Primitive(Float3 &tess, Float3 &translate, Float3 &scale);
 
-              /// Draws the primitive instanced n times  with the given shader program
-              /// applied. Note that the shader program must be bound prior to calling this.
-              /// The instance can be accessed via gl_InstanceID in a shader.
-              void draw(ShaderProgram *program, int instances) const;
+			  GLuint vertexId_, indexId_;
+			  GLenum type_;
+			  GLuint idxCount_;
+			  GLuint typeCount_;
+			  int vOffset_, tOffset_;
+			  ShaderProgram *shader_;
+			  Float3 scale_, translate_;
+		};
+		class Quad : public Primitive {
+			public:
+			Quad(Float3 tess, Float3 translate, Float3 scale, bool flip = false);
+			~Quad();
 
-              /// Returns the vbo id holding the vertices of this primitive
-              GLuint vertexID() { return vertexId_; }
-              /// Returns the vbo id holding the index information of this primitive
-              GLuint indexID() { return indexId_; }
+			void tesselate(Float3 tess, Float3 translate, Float3 scale);
 
-              /// Returns a const reference to the scale factor of this primitive
-              const Float3& scale() { return scale_; }
-              /// Returns a const reference to the translation factor of this primitive
-              const Float3& translate() { return translate_; }
-          protected:
-              /// Protected primitive constructor
-              Primitive(Float3 &tess, Float3 &translate, Float3 &scale);
+			protected:
+			bool flip_;
+		};
 
-              GLuint vertexId_, indexId_; /// The vertex and index vbo ids
-              GLenum type_; /// The patch type of the primitive (ex. GL_QUAD)
-              GLuint idxCount_; /// The number of indices
-              GLuint typeCount_; /// The number of vertices per patch (ex. 4 for GL_QUAD)
-              int vOffset_, tOffset_, nOffset_; /// The offset of each data in the Vertex struct (currently 0, 12, 24)
+		class Rect : public Primitive {
+		public:
+			Rect(Float3 tess, Float3 translate, Float3 scale);
+			~Rect();
 
-              Float3 scale_, translate_; /// The scale and translation factors
-        };
+			void tesselate(Float3 tess, Float3 translate, Float3 scale);
+		};
 
-        /**
-          Defines a simple quad (in the xy axis).  Useful for drawing textures
-          to the screen.  To draw a fullscreen quad, you must set up an
-          orthographic camera with width and height equal to the viewport.
-          Then set the scale to the viewport (or rendering context's) width and
-          height.  Translation should then be set to the half width and half height.
-          Tesselation may be set to 1.
-          **/
-        class Quad : public Primitive {
-            public:
-            Quad(Float3 tess, Float3 translate, Float3 scale);
-            ~Quad();
+		class Circle : public Primitive {
+		public:
+			Circle(Float3 tess, Float3 translate, Float3 scale);
+			~Circle();
 
-            void tesselate(Float3 tess, Float3 translate, Float3 scale);
-        };
+			void tesselate(Float3 tess, Float3 translate, Float3 scale);
+		};
+
+		class Disc : public Primitive {
+		public:
+			Disc(Float3 tess, Float3 translate, Float3 scale);
+			~Disc();
+
+			void tesselate(Float3 tess, Float3 translate, Float3 scale);
+		};
+
+		class Plane : public Primitive {
+			public:
+			Plane(Float3 tess, Float3 translate, Float3 scale);
+			~Plane();
+
+			void tesselate(Float3 tess, Float3 translate, Float3 scale);
+		};
+
+
+		class GLTriangle : public Primitive {
+			public:
+			GLTriangle(Float3 tess, Float3 translate, Float3 scale);
+			~GLTriangle();
+
+			void tesselate(Float3 tess, Float3 translate, Float3 scale);
+		};
 
 #endif // PRIMITIVE_H

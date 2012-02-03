@@ -9,11 +9,6 @@ set(CMAKE_BINARY_DIR obj)
 
 #find_package(PNG REQUIRED)
 #find_package(OpenGL REQUIRED)
-message(STATUS "Looking for GLEW")
-find_package(GLEW REQUIRED)
-if(NOT GLEW_FOUND)
-		message(FATAL_ERROR "Looking for GLEW - not found")
-endif(NOT GLEW_FOUND)
 # use, i.e. don't skip the full RPATH for the build tree
 SET(CMAKE_SKIP_BUILD_RPATH  FALSE)
 

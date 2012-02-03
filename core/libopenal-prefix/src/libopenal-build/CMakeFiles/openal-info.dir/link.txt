@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -O2 -D_DEBUG   CMakeFiles/openal-info.dir/utils/openal-info.o  -o openal-info -rdynamic libopenal.so.1.13.0 -lrt -lpthread -ldl -lm -pthread -Wl,-rpath,/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build: 

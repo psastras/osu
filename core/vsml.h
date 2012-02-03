@@ -5,7 +5,7 @@
 #include <vector>
 #include <stdlib.h>
 #include <string.h>
-#include <GL/glew.h>
+#include <GLES2/gl2.h>
 
 
         class VSML {

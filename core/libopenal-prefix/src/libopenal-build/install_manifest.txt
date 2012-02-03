@@ -1,0 +1,10 @@
+/home/psastras/osu/core/3rdparty/install/lib/libopenal.so.1.13.0
+/home/psastras/osu/core/3rdparty/install/lib/libopenal.so.1
+/home/psastras/osu/core/3rdparty/install/lib/libopenal.so
+/home/psastras/osu/core/3rdparty/install/include/AL/al.h
+/home/psastras/osu/core/3rdparty/install/include/AL/alc.h
+/home/psastras/osu/core/3rdparty/install/include/AL/alext.h
+/home/psastras/osu/core/3rdparty/install/include/AL/efx.h
+/home/psastras/osu/core/3rdparty/install/include/AL/efx-creative.h
+/home/psastras/osu/core/3rdparty/install/lib/pkgconfig/openal.pc
+/home/psastras/osu/core/3rdparty/install/bin/openal-info

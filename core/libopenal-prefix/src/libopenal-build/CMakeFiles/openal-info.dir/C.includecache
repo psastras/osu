@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/al.h
+
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/alc.h
+
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/alext.h
+stddef.h
+-
+efx.h
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/efx.h
+
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/efx.h
+
+/home/psastras/osu/core/3rdparty/OpenAL/utils/openal-info.c
+config.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/config.h
+stdio.h
+-
+string.h
+-
+AL/alc.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/AL/alc.h
+AL/al.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/AL/al.h
+AL/alext.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/AL/alext.h
+
+config.h
+

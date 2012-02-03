@@ -1,4 +1,3 @@
-#include <GL/glew.h>
 #include <iostream>
 #include "shaderprogram.h"
 #include "vsml.h"
@@ -22,9 +21,6 @@ using namespace std;
             m_programID = glCreateProgram();
             if(type & FragmentShader) this->loadShaderFromFile(GL_FRAGMENT_SHADER, filename);
             if(type & VertexShader) this->loadShaderFromFile(GL_VERTEX_SHADER, filename);
-            if(type & GeometryShader) this->loadShaderFromFile(GL_GEOMETRY_SHADER, filename);
-            if(type & EvaluationShader) this->loadShaderFromFile(GL_TESS_EVALUATION_SHADER, filename);
-            if(type & ControlShader) this->loadShaderFromFile(GL_TESS_CONTROL_SHADER, filename);
             this->link();
         }
 
@@ -36,9 +32,6 @@ using namespace std;
             src = src.substr(0, size);
             if(type & FragmentShader) this->loadShaderFromSource(GL_FRAGMENT_SHADER, src);
             if(type & VertexShader) this->loadShaderFromSource(GL_VERTEX_SHADER, src);
-            if(type & GeometryShader) this->loadShaderFromSource(GL_GEOMETRY_SHADER, src);
-            if(type & EvaluationShader) this->loadShaderFromSource(GL_TESS_EVALUATION_SHADER, src);
-            if(type & ControlShader) this->loadShaderFromSource(GL_TESS_CONTROL_SHADER, src);
             this->link();
         }
 
@@ -87,12 +80,7 @@ using namespace std;
             ss << "#define _FRAGMENT_" << endl;
             else if(type == GL_VERTEX_SHADER)
             ss << "#define _VERTEX_" << endl;
-            else if(type == GL_GEOMETRY_SHADER)
-            ss << "#define _GEOMETRY_" << endl;
-            else if(type == GL_TESS_EVALUATION_SHADER)
-            ss << "#define _TESSEVAL_" << endl;
-            else if(type == GL_TESS_CONTROL_SHADER)
-            ss << "#define _TESSCONTROL_" << endl;
+
 
             if (file.is_open())
             {
@@ -127,12 +115,7 @@ using namespace std;
             ss << "#define _FRAGMENT_" << endl;
             else if(type == GL_VERTEX_SHADER)
             ss << "#define _VERTEX_" << endl;
-            else if(type == GL_GEOMETRY_SHADER)
-            ss << "#define _GEOMETRY_" << endl;
-            else if(type == GL_TESS_EVALUATION_SHADER)
-            ss << "#define _TESSEVAL_" << endl;
-            else if(type == GL_TESS_CONTROL_SHADER)
-            ss << "#define _TESSCONTROL_" << endl;
+
 
             ss << source;
             std::string str = ss.str();
@@ -263,11 +246,6 @@ using namespace std;
         void ShaderProgram::setUniformValue(const char *name, int val)
         {
             glUniform1i(getUniformLocation(name), val);
-        }
-
-        void ShaderProgram::setUniformValue(const char *name, unsigned int val)
-        {
-            glUniform1ui(getUniformLocation(name), val);
         }
 
         GLuint ShaderProgram::id() const

@@ -2,7 +2,7 @@
 #define SHADERPROGRAM_H
 
 #include "vec.h"
-#include <GL/gl.h>
+#include <GLES2/gl2.h>
 #include <string>
 #include <unordered_map>
 #include <vector>
