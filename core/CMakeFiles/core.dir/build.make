@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu
+CMAKE_BINARY_DIR = /home/psastras/osu
 
 # Include any dependencies generated for this target.
 include core/CMakeFiles/core.dir/depend.make
@@ -47,18 +47,18 @@ include core/CMakeFiles/core.dir/progress.make
 include core/CMakeFiles/core.dir/flags.make
 
 core/CMakeFiles/core.dir/main.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/main.cpp.o: /home/psastras/osu/core/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_1)
+core/CMakeFiles/core.dir/main.cpp.o: core/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/main.cpp.o"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/main.cpp.o -c /home/psastras/osu/core/main.cpp
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/main.cpp.o -c /home/psastras/osu/core/main.cpp
 
 core/CMakeFiles/core.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/main.cpp.i"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/main.cpp > CMakeFiles/core.dir/main.cpp.i
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/main.cpp > CMakeFiles/core.dir/main.cpp.i
 
 core/CMakeFiles/core.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/main.cpp.s"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/main.cpp -o CMakeFiles/core.dir/main.cpp.s
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/main.cpp -o CMakeFiles/core.dir/main.cpp.s
 
 core/CMakeFiles/core.dir/main.cpp.o.requires:
 .PHONY : core/CMakeFiles/core.dir/main.cpp.o.requires
@@ -71,18 +71,18 @@ core/CMakeFiles/core.dir/main.cpp.o.provides.build: core/CMakeFiles/core.dir/mai
 .PHONY : core/CMakeFiles/core.dir/main.cpp.o.provides.build
 
 core/CMakeFiles/core.dir/beatmap.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/beatmap.cpp.o: /home/psastras/osu/core/beatmap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_2)
+core/CMakeFiles/core.dir/beatmap.cpp.o: core/beatmap.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/beatmap.cpp.o"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/beatmap.cpp.o -c /home/psastras/osu/core/beatmap.cpp
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/beatmap.cpp.o -c /home/psastras/osu/core/beatmap.cpp
 
 core/CMakeFiles/core.dir/beatmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/beatmap.cpp.i"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/beatmap.cpp > CMakeFiles/core.dir/beatmap.cpp.i
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/beatmap.cpp > CMakeFiles/core.dir/beatmap.cpp.i
 
 core/CMakeFiles/core.dir/beatmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/beatmap.cpp.s"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/beatmap.cpp -o CMakeFiles/core.dir/beatmap.cpp.s
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/beatmap.cpp -o CMakeFiles/core.dir/beatmap.cpp.s
 
 core/CMakeFiles/core.dir/beatmap.cpp.o.requires:
 .PHONY : core/CMakeFiles/core.dir/beatmap.cpp.o.requires
@@ -95,18 +95,18 @@ core/CMakeFiles/core.dir/beatmap.cpp.o.provides.build: core/CMakeFiles/core.dir/
 .PHONY : core/CMakeFiles/core.dir/beatmap.cpp.o.provides.build
 
 core/CMakeFiles/core.dir/primitive.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/primitive.cpp.o: /home/psastras/osu/core/primitive.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_3)
+core/CMakeFiles/core.dir/primitive.cpp.o: core/primitive.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/primitive.cpp.o"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/primitive.cpp.o -c /home/psastras/osu/core/primitive.cpp
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/primitive.cpp.o -c /home/psastras/osu/core/primitive.cpp
 
 core/CMakeFiles/core.dir/primitive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/primitive.cpp.i"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/primitive.cpp > CMakeFiles/core.dir/primitive.cpp.i
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/primitive.cpp > CMakeFiles/core.dir/primitive.cpp.i
 
 core/CMakeFiles/core.dir/primitive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/primitive.cpp.s"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/primitive.cpp -o CMakeFiles/core.dir/primitive.cpp.s
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/primitive.cpp -o CMakeFiles/core.dir/primitive.cpp.s
 
 core/CMakeFiles/core.dir/primitive.cpp.o.requires:
 .PHONY : core/CMakeFiles/core.dir/primitive.cpp.o.requires
@@ -119,18 +119,18 @@ core/CMakeFiles/core.dir/primitive.cpp.o.provides.build: core/CMakeFiles/core.di
 .PHONY : core/CMakeFiles/core.dir/primitive.cpp.o.provides.build
 
 core/CMakeFiles/core.dir/shaderprogram.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/shaderprogram.cpp.o: /home/psastras/osu/core/shaderprogram.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_4)
+core/CMakeFiles/core.dir/shaderprogram.cpp.o: core/shaderprogram.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/shaderprogram.cpp.o"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/shaderprogram.cpp.o -c /home/psastras/osu/core/shaderprogram.cpp
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/shaderprogram.cpp.o -c /home/psastras/osu/core/shaderprogram.cpp
 
 core/CMakeFiles/core.dir/shaderprogram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/shaderprogram.cpp.i"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/shaderprogram.cpp > CMakeFiles/core.dir/shaderprogram.cpp.i
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/shaderprogram.cpp > CMakeFiles/core.dir/shaderprogram.cpp.i
 
 core/CMakeFiles/core.dir/shaderprogram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/shaderprogram.cpp.s"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/shaderprogram.cpp -o CMakeFiles/core.dir/shaderprogram.cpp.s
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/shaderprogram.cpp -o CMakeFiles/core.dir/shaderprogram.cpp.s
 
 core/CMakeFiles/core.dir/shaderprogram.cpp.o.requires:
 .PHONY : core/CMakeFiles/core.dir/shaderprogram.cpp.o.requires
@@ -143,18 +143,18 @@ core/CMakeFiles/core.dir/shaderprogram.cpp.o.provides.build: core/CMakeFiles/cor
 .PHONY : core/CMakeFiles/core.dir/shaderprogram.cpp.o.provides.build
 
 core/CMakeFiles/core.dir/vsml.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/vsml.cpp.o: /home/psastras/osu/core/vsml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_5)
+core/CMakeFiles/core.dir/vsml.cpp.o: core/vsml.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/vsml.cpp.o"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/vsml.cpp.o -c /home/psastras/osu/core/vsml.cpp
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/vsml.cpp.o -c /home/psastras/osu/core/vsml.cpp
 
 core/CMakeFiles/core.dir/vsml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/vsml.cpp.i"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/vsml.cpp > CMakeFiles/core.dir/vsml.cpp.i
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/vsml.cpp > CMakeFiles/core.dir/vsml.cpp.i
 
 core/CMakeFiles/core.dir/vsml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/vsml.cpp.s"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/vsml.cpp -o CMakeFiles/core.dir/vsml.cpp.s
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/vsml.cpp -o CMakeFiles/core.dir/vsml.cpp.s
 
 core/CMakeFiles/core.dir/vsml.cpp.o.requires:
 .PHONY : core/CMakeFiles/core.dir/vsml.cpp.o.requires
@@ -167,18 +167,18 @@ core/CMakeFiles/core.dir/vsml.cpp.o.provides.build: core/CMakeFiles/core.dir/vsm
 .PHONY : core/CMakeFiles/core.dir/vsml.cpp.o.provides.build
 
 core/CMakeFiles/core.dir/osugame.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/osugame.cpp.o: /home/psastras/osu/core/osugame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_6)
+core/CMakeFiles/core.dir/osugame.cpp.o: core/osugame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/osugame.cpp.o"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/osugame.cpp.o -c /home/psastras/osu/core/osugame.cpp
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/osugame.cpp.o -c /home/psastras/osu/core/osugame.cpp
 
 core/CMakeFiles/core.dir/osugame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/osugame.cpp.i"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/osugame.cpp > CMakeFiles/core.dir/osugame.cpp.i
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/osugame.cpp > CMakeFiles/core.dir/osugame.cpp.i
 
 core/CMakeFiles/core.dir/osugame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/osugame.cpp.s"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/osugame.cpp -o CMakeFiles/core.dir/osugame.cpp.s
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/osugame.cpp -o CMakeFiles/core.dir/osugame.cpp.s
 
 core/CMakeFiles/core.dir/osugame.cpp.o.requires:
 .PHONY : core/CMakeFiles/core.dir/osugame.cpp.o.requires
@@ -190,6 +190,30 @@ core/CMakeFiles/core.dir/osugame.cpp.o.provides: core/CMakeFiles/core.dir/osugam
 core/CMakeFiles/core.dir/osugame.cpp.o.provides.build: core/CMakeFiles/core.dir/osugame.cpp.o
 .PHONY : core/CMakeFiles/core.dir/osugame.cpp.o.provides.build
 
+core/CMakeFiles/core.dir/audio.cpp.o: core/CMakeFiles/core.dir/flags.make
+core/CMakeFiles/core.dir/audio.cpp.o: core/audio.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object core/CMakeFiles/core.dir/audio.cpp.o"
+	cd /home/psastras/osu/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/core.dir/audio.cpp.o -c /home/psastras/osu/core/audio.cpp
+
+core/CMakeFiles/core.dir/audio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/audio.cpp.i"
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/psastras/osu/core/audio.cpp > CMakeFiles/core.dir/audio.cpp.i
+
+core/CMakeFiles/core.dir/audio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/audio.cpp.s"
+	cd /home/psastras/osu/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/psastras/osu/core/audio.cpp -o CMakeFiles/core.dir/audio.cpp.s
+
+core/CMakeFiles/core.dir/audio.cpp.o.requires:
+.PHONY : core/CMakeFiles/core.dir/audio.cpp.o.requires
+
+core/CMakeFiles/core.dir/audio.cpp.o.provides: core/CMakeFiles/core.dir/audio.cpp.o.requires
+	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/audio.cpp.o.provides.build
+.PHONY : core/CMakeFiles/core.dir/audio.cpp.o.provides
+
+core/CMakeFiles/core.dir/audio.cpp.o.provides.build: core/CMakeFiles/core.dir/audio.cpp.o
+.PHONY : core/CMakeFiles/core.dir/audio.cpp.o.provides.build
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/main.cpp.o" \
@@ -197,7 +221,8 @@ core_OBJECTS = \
 "CMakeFiles/core.dir/primitive.cpp.o" \
 "CMakeFiles/core.dir/shaderprogram.cpp.o" \
 "CMakeFiles/core.dir/vsml.cpp.o" \
-"CMakeFiles/core.dir/osugame.cpp.o"
+"CMakeFiles/core.dir/osugame.cpp.o" \
+"CMakeFiles/core.dir/audio.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -208,11 +233,12 @@ core/bin/libcore.a: core/CMakeFiles/core.dir/primitive.cpp.o
 core/bin/libcore.a: core/CMakeFiles/core.dir/shaderprogram.cpp.o
 core/bin/libcore.a: core/CMakeFiles/core.dir/vsml.cpp.o
 core/bin/libcore.a: core/CMakeFiles/core.dir/osugame.cpp.o
+core/bin/libcore.a: core/CMakeFiles/core.dir/audio.cpp.o
 core/bin/libcore.a: core/CMakeFiles/core.dir/build.make
 core/bin/libcore.a: core/CMakeFiles/core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library bin/libcore.a"
-	cd /gpfs/main/home/psastras/osu/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
-	cd /gpfs/main/home/psastras/osu/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/psastras/osu/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
+	cd /home/psastras/osu/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 core/CMakeFiles/core.dir/build: core/bin/libcore.a
@@ -224,13 +250,14 @@ core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/primitive.cpp.o.requ
 core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/shaderprogram.cpp.o.requires
 core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/vsml.cpp.o.requires
 core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/osugame.cpp.o.requires
+core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/audio.cpp.o.requires
 .PHONY : core/CMakeFiles/core.dir/requires
 
 core/CMakeFiles/core.dir/clean:
-	cd /gpfs/main/home/psastras/osu/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean.cmake
+	cd /home/psastras/osu/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean.cmake
 .PHONY : core/CMakeFiles/core.dir/clean
 
 core/CMakeFiles/core.dir/depend:
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu /home/psastras/osu/core /gpfs/main/home/psastras/osu /gpfs/main/home/psastras/osu/core /gpfs/main/home/psastras/osu/core/CMakeFiles/core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu /home/psastras/osu/core /home/psastras/osu /home/psastras/osu/core /home/psastras/osu/core/CMakeFiles/core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : core/CMakeFiles/core.dir/depend
 

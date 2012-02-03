@@ -46,9 +46,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/libopenal.so.1.13.0"
-    "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/libopenal.so.1"
-    "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/libopenal.so"
+    "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/libopenal.so.1.13.0"
+    "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/libopenal.so.1"
+    "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/libopenal.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopenal.so.1.13.0"
@@ -75,7 +75,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/openal.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/openal.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -85,7 +85,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/openal-info"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/openal-info")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/openal-info")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/openal-info" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/openal-info")
     FILE(RPATH_REMOVE
@@ -102,7 +102,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

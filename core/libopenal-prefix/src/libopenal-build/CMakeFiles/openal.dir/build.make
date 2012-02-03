@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu/core/3rdparty/OpenAL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build
+CMAKE_BINARY_DIR = /home/psastras/osu/core/libopenal-prefix/src/libopenal-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/openal.dir/depend.make
@@ -48,7 +48,7 @@ include CMakeFiles/openal.dir/flags.make
 
 CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alAuxEffectSlot.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alAuxEffectSlot.c
 
@@ -72,7 +72,7 @@ CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.o.provides.build: CMakeFiles/open
 
 CMakeFiles/openal.dir/OpenAL32/alBuffer.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alBuffer.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alBuffer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alBuffer.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alBuffer.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alBuffer.c
 
@@ -96,7 +96,7 @@ CMakeFiles/openal.dir/OpenAL32/alBuffer.o.provides.build: CMakeFiles/openal.dir/
 
 CMakeFiles/openal.dir/OpenAL32/alDatabuffer.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alDatabuffer.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alDatabuffer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alDatabuffer.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alDatabuffer.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alDatabuffer.c
 
@@ -120,7 +120,7 @@ CMakeFiles/openal.dir/OpenAL32/alDatabuffer.o.provides.build: CMakeFiles/openal.
 
 CMakeFiles/openal.dir/OpenAL32/alEffect.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alEffect.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alEffect.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alEffect.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alEffect.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alEffect.c
 
@@ -144,7 +144,7 @@ CMakeFiles/openal.dir/OpenAL32/alEffect.o.provides.build: CMakeFiles/openal.dir/
 
 CMakeFiles/openal.dir/OpenAL32/alError.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alError.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alError.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alError.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alError.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alError.c
 
@@ -168,7 +168,7 @@ CMakeFiles/openal.dir/OpenAL32/alError.o.provides.build: CMakeFiles/openal.dir/O
 
 CMakeFiles/openal.dir/OpenAL32/alExtension.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alExtension.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alExtension.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alExtension.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alExtension.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alExtension.c
 
@@ -192,7 +192,7 @@ CMakeFiles/openal.dir/OpenAL32/alExtension.o.provides.build: CMakeFiles/openal.d
 
 CMakeFiles/openal.dir/OpenAL32/alFilter.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alFilter.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alFilter.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alFilter.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alFilter.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alFilter.c
 
@@ -216,7 +216,7 @@ CMakeFiles/openal.dir/OpenAL32/alFilter.o.provides.build: CMakeFiles/openal.dir/
 
 CMakeFiles/openal.dir/OpenAL32/alListener.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alListener.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alListener.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alListener.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alListener.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alListener.c
 
@@ -240,7 +240,7 @@ CMakeFiles/openal.dir/OpenAL32/alListener.o.provides.build: CMakeFiles/openal.di
 
 CMakeFiles/openal.dir/OpenAL32/alSource.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alSource.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alSource.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alSource.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alSource.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alSource.c
 
@@ -264,7 +264,7 @@ CMakeFiles/openal.dir/OpenAL32/alSource.o.provides.build: CMakeFiles/openal.dir/
 
 CMakeFiles/openal.dir/OpenAL32/alState.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alState.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alState.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alState.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alState.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alState.c
 
@@ -288,7 +288,7 @@ CMakeFiles/openal.dir/OpenAL32/alState.o.provides.build: CMakeFiles/openal.dir/O
 
 CMakeFiles/openal.dir/OpenAL32/alThunk.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/OpenAL32/alThunk.o: /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alThunk.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/OpenAL32/alThunk.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/OpenAL32/alThunk.o   -c /home/psastras/osu/core/3rdparty/OpenAL/OpenAL32/alThunk.c
 
@@ -312,7 +312,7 @@ CMakeFiles/openal.dir/OpenAL32/alThunk.o.provides.build: CMakeFiles/openal.dir/O
 
 CMakeFiles/openal.dir/Alc/ALc.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/ALc.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/ALc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/ALc.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/ALc.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/ALc.c
 
@@ -336,7 +336,7 @@ CMakeFiles/openal.dir/Alc/ALc.o.provides.build: CMakeFiles/openal.dir/Alc/ALc.o
 
 CMakeFiles/openal.dir/Alc/ALu.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/ALu.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/ALu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/ALu.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/ALu.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/ALu.c
 
@@ -360,7 +360,7 @@ CMakeFiles/openal.dir/Alc/ALu.o.provides.build: CMakeFiles/openal.dir/Alc/ALu.o
 
 CMakeFiles/openal.dir/Alc/alcConfig.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alcConfig.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcConfig.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alcConfig.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alcConfig.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcConfig.c
 
@@ -384,7 +384,7 @@ CMakeFiles/openal.dir/Alc/alcConfig.o.provides.build: CMakeFiles/openal.dir/Alc/
 
 CMakeFiles/openal.dir/Alc/alcEcho.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alcEcho.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcEcho.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alcEcho.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alcEcho.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcEcho.c
 
@@ -408,7 +408,7 @@ CMakeFiles/openal.dir/Alc/alcEcho.o.provides.build: CMakeFiles/openal.dir/Alc/al
 
 CMakeFiles/openal.dir/Alc/alcModulator.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alcModulator.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcModulator.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alcModulator.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alcModulator.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcModulator.c
 
@@ -432,7 +432,7 @@ CMakeFiles/openal.dir/Alc/alcModulator.o.provides.build: CMakeFiles/openal.dir/A
 
 CMakeFiles/openal.dir/Alc/alcReverb.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alcReverb.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcReverb.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alcReverb.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alcReverb.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcReverb.c
 
@@ -456,7 +456,7 @@ CMakeFiles/openal.dir/Alc/alcReverb.o.provides.build: CMakeFiles/openal.dir/Alc/
 
 CMakeFiles/openal.dir/Alc/alcRing.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alcRing.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcRing.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alcRing.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alcRing.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcRing.c
 
@@ -480,7 +480,7 @@ CMakeFiles/openal.dir/Alc/alcRing.o.provides.build: CMakeFiles/openal.dir/Alc/al
 
 CMakeFiles/openal.dir/Alc/alcThread.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alcThread.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcThread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alcThread.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alcThread.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alcThread.c
 
@@ -504,7 +504,7 @@ CMakeFiles/openal.dir/Alc/alcThread.o.provides.build: CMakeFiles/openal.dir/Alc/
 
 CMakeFiles/openal.dir/Alc/bs2b.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/bs2b.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/bs2b.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/bs2b.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/bs2b.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/bs2b.c
 
@@ -528,7 +528,7 @@ CMakeFiles/openal.dir/Alc/bs2b.o.provides.build: CMakeFiles/openal.dir/Alc/bs2b.
 
 CMakeFiles/openal.dir/Alc/mixer.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/mixer.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/mixer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/mixer.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/mixer.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/mixer.c
 
@@ -552,7 +552,7 @@ CMakeFiles/openal.dir/Alc/mixer.o.provides.build: CMakeFiles/openal.dir/Alc/mixe
 
 CMakeFiles/openal.dir/Alc/panning.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/panning.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/panning.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/panning.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/panning.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/panning.c
 
@@ -576,7 +576,7 @@ CMakeFiles/openal.dir/Alc/panning.o.provides.build: CMakeFiles/openal.dir/Alc/pa
 
 CMakeFiles/openal.dir/Alc/null.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/null.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/null.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/null.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/null.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/null.c
 
@@ -600,7 +600,7 @@ CMakeFiles/openal.dir/Alc/null.o.provides.build: CMakeFiles/openal.dir/Alc/null.
 
 CMakeFiles/openal.dir/Alc/alsa.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/alsa.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/alsa.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/alsa.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/alsa.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/alsa.c
 
@@ -624,7 +624,7 @@ CMakeFiles/openal.dir/Alc/alsa.o.provides.build: CMakeFiles/openal.dir/Alc/alsa.
 
 CMakeFiles/openal.dir/Alc/oss.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/oss.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/oss.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/oss.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/oss.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/oss.c
 
@@ -648,7 +648,7 @@ CMakeFiles/openal.dir/Alc/oss.o.provides.build: CMakeFiles/openal.dir/Alc/oss.o
 
 CMakeFiles/openal.dir/Alc/pulseaudio.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/pulseaudio.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/pulseaudio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/pulseaudio.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/pulseaudio.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/pulseaudio.c
 
@@ -672,7 +672,7 @@ CMakeFiles/openal.dir/Alc/pulseaudio.o.provides.build: CMakeFiles/openal.dir/Alc
 
 CMakeFiles/openal.dir/Alc/wave.o: CMakeFiles/openal.dir/flags.make
 CMakeFiles/openal.dir/Alc/wave.o: /home/psastras/osu/core/3rdparty/OpenAL/Alc/wave.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal.dir/Alc/wave.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DAL_ALEXT_PROTOTYPES -o CMakeFiles/openal.dir/Alc/wave.o   -c /home/psastras/osu/core/3rdparty/OpenAL/Alc/wave.c
 
@@ -802,6 +802,6 @@ CMakeFiles/openal.dir/clean:
 .PHONY : CMakeFiles/openal.dir/clean
 
 CMakeFiles/openal.dir/depend:
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu/core/3rdparty/OpenAL /home/psastras/osu/core/3rdparty/OpenAL /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu/core/3rdparty/OpenAL /home/psastras/osu/core/3rdparty/OpenAL /home/psastras/osu/core/libopenal-prefix/src/libopenal-build /home/psastras/osu/core/libopenal-prefix/src/libopenal-build /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openal.dir/depend
 

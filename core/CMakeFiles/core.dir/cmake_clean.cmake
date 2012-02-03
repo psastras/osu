@@ -5,6 +5,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/core.dir/shaderprogram.cpp.o"
   "CMakeFiles/core.dir/vsml.cpp.o"
   "CMakeFiles/core.dir/osugame.cpp.o"
+  "CMakeFiles/core.dir/audio.cpp.o"
   "bin/libcore.pdb"
   "bin/libcore.a"
 )

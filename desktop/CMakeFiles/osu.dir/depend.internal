@@ -109,7 +109,9 @@ desktop/CMakeFiles/osu.dir/glwidget.cpp.o
  /usr/include/qt4/QtOpenGL/qgl.h
  /usr/include/qt4/QtOpenGL/qglcolormap.h
 desktop/CMakeFiles/osu.dir/main.cpp.o
+ /home/psastras/osu/desktop/../core/audio.h
  /home/psastras/osu/desktop/../core/beatmap.h
+ /home/psastras/osu/desktop/../core/osugame.h
  /home/psastras/osu/desktop/main.cpp
  /home/psastras/osu/desktop/mainwindow.h
  /usr/include/qt4/Qt3Support/q3cstring.h
@@ -373,8 +375,8 @@ desktop/CMakeFiles/osu.dir/mainwindow.cpp.o
  /usr/include/qt4/QtOpenGL/qgl.h
  /usr/include/qt4/QtOpenGL/qglcolormap.h
 desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.o
- /gpfs/main/home/psastras/osu/desktop/glwidget.h
- /gpfs/main/home/psastras/osu/desktop/moc_glwidget.cxx
+ /home/psastras/osu/desktop/glwidget.h
+ /home/psastras/osu/desktop/moc_glwidget.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -480,8 +482,8 @@ desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.o
  /usr/include/qt4/QtOpenGL/qgl.h
  /usr/include/qt4/QtOpenGL/qglcolormap.h
 desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.o
- /gpfs/main/home/psastras/osu/desktop/mainwindow.h
- /gpfs/main/home/psastras/osu/desktop/moc_mainwindow.cxx
+ /home/psastras/osu/desktop/mainwindow.h
+ /home/psastras/osu/desktop/moc_mainwindow.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint

@@ -1,0 +1,9 @@
+huffman.lo: /home/psastras/osu/core/3rdparty/mad/huffman.c config.h \
+ /home/psastras/osu/core/3rdparty/mad/global.h \
+ /home/psastras/osu/core/3rdparty/mad/huffman.h
+
+config.h:
+
+/home/psastras/osu/core/3rdparty/mad/global.h:
+
+/home/psastras/osu/core/3rdparty/mad/huffman.h:

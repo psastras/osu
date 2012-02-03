@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu
+CMAKE_BINARY_DIR = /home/psastras/osu
 
 # Utility rule file for libopenal.
 
@@ -49,57 +49,57 @@ core/CMakeFiles/libopenal-complete: core/libopenal-prefix/src/libopenal-stamp/li
 core/CMakeFiles/libopenal-complete: core/libopenal-prefix/src/libopenal-stamp/libopenal-configure
 core/CMakeFiles/libopenal-complete: core/libopenal-prefix/src/libopenal-stamp/libopenal-build
 core/CMakeFiles/libopenal-complete: core/libopenal-prefix/src/libopenal-stamp/libopenal-install
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Completed 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /gpfs/main/home/psastras/osu/core/CMakeFiles
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/CMakeFiles/libopenal-complete
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-done
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/CMakeFiles
+	cd /home/psastras/osu/core && /usr/bin/cmake -E touch /home/psastras/osu/core/CMakeFiles/libopenal-complete
+	cd /home/psastras/osu/core && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-done
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-install: core/libopenal-prefix/src/libopenal-stamp/libopenal-build
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing install step for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake --build /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build --config . --target install
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-install
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake --build /home/psastras/osu/core/libopenal-prefix/src/libopenal-build --config . --target install
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-install
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-mkdir:
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Creating directories for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/3rdparty/OpenAL
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/3rdparty/install
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /gpfs/main/home/psastras/osu/core/libopenal-prefix/tmp
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E make_directory /gpfs/main/home/psastras/osu/core/libopenal-prefix/src
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-mkdir
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/3rdparty/OpenAL
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/libopenal-prefix/src/libopenal-build
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/3rdparty/install
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/libopenal-prefix/tmp
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp
+	cd /home/psastras/osu/core && /usr/bin/cmake -E make_directory /home/psastras/osu/core/libopenal-prefix/src
+	cd /home/psastras/osu/core && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-mkdir
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-download: core/libopenal-prefix/src/libopenal-stamp/libopenal-mkdir
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No download step for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-download
+	cd /home/psastras/osu/core && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-download
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-update: core/libopenal-prefix/src/libopenal-stamp/libopenal-download
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No update step for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-update
+	cd /home/psastras/osu/core && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-update
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-patch: core/libopenal-prefix/src/libopenal-stamp/libopenal-download
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No patch step for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-patch
+	cd /home/psastras/osu/core && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-patch
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-configure: core/libopenal-prefix/tmp/libopenal-cfgcmd.txt
 core/libopenal-prefix/src/libopenal-stamp/libopenal-configure: core/libopenal-prefix/src/libopenal-stamp/libopenal-update
 core/libopenal-prefix/src/libopenal-stamp/libopenal-configure: core/libopenal-prefix/src/libopenal-stamp/libopenal-patch
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing configure step for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/psastras/osu/core/3rdparty/install "-GUnix Makefiles" /home/psastras/osu/core/3rdparty/OpenAL
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-configure
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake "-GUnix Makefiles" /home/psastras/osu/core/3rdparty/OpenAL
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-configure
 
 core/libopenal-prefix/src/libopenal-stamp/libopenal-build: core/libopenal-prefix/src/libopenal-stamp/libopenal-configure
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing build step for 'libopenal'"
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake --build /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build --config .
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -E touch /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-build
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake --build /home/psastras/osu/core/libopenal-prefix/src/libopenal-build --config .
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && /usr/bin/cmake -E touch /home/psastras/osu/core/libopenal-prefix/src/libopenal-stamp/libopenal-build
 
 libopenal: core/CMakeFiles/libopenal
 libopenal: core/CMakeFiles/libopenal-complete
@@ -118,10 +118,10 @@ core/CMakeFiles/libopenal.dir/build: libopenal
 .PHONY : core/CMakeFiles/libopenal.dir/build
 
 core/CMakeFiles/libopenal.dir/clean:
-	cd /gpfs/main/home/psastras/osu/core && $(CMAKE_COMMAND) -P CMakeFiles/libopenal.dir/cmake_clean.cmake
+	cd /home/psastras/osu/core && $(CMAKE_COMMAND) -P CMakeFiles/libopenal.dir/cmake_clean.cmake
 .PHONY : core/CMakeFiles/libopenal.dir/clean
 
 core/CMakeFiles/libopenal.dir/depend:
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu /home/psastras/osu/core /gpfs/main/home/psastras/osu /gpfs/main/home/psastras/osu/core /gpfs/main/home/psastras/osu/core/CMakeFiles/libopenal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu /home/psastras/osu/core /home/psastras/osu /home/psastras/osu/core /home/psastras/osu/core/CMakeFiles/libopenal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : core/CMakeFiles/libopenal.dir/depend
 

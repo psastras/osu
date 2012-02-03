@@ -1,2 +1,2 @@
-/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal.dir
-/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir
+/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal.dir
+/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir

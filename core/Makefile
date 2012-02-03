@@ -39,7 +39,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu
+CMAKE_BINARY_DIR = /home/psastras/osu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,14 +66,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/CMakeFiles /gpfs/main/home/psastras/osu/core/CMakeFiles/progress.marks
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/CMakeFiles 0
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/CMakeFiles /home/psastras/osu/core/CMakeFiles/progress.marks
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/clean
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +82,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 core/CMakeFiles/core.dir/rule:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/core.dir/rule
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/core.dir/rule
 .PHONY : core/CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -106,26 +106,26 @@ core: core/CMakeFiles/core.dir/rule
 
 # fast build rule for target.
 core/fast:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
 .PHONY : core/fast
 
 # Convenience name for target.
-core/CMakeFiles/libmpg123.dir/rule:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/libmpg123.dir/rule
-.PHONY : core/CMakeFiles/libmpg123.dir/rule
+core/CMakeFiles/libmad.dir/rule:
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/libmad.dir/rule
+.PHONY : core/CMakeFiles/libmad.dir/rule
 
 # Convenience name for target.
-libmpg123: core/CMakeFiles/libmpg123.dir/rule
-.PHONY : libmpg123
+libmad: core/CMakeFiles/libmad.dir/rule
+.PHONY : libmad
 
 # fast build rule for target.
-libmpg123/fast:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/libmpg123.dir/build.make core/CMakeFiles/libmpg123.dir/build
-.PHONY : libmpg123/fast
+libmad/fast:
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/libmad.dir/build.make core/CMakeFiles/libmad.dir/build
+.PHONY : libmad/fast
 
 # Convenience name for target.
 core/CMakeFiles/libopenal.dir/rule:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/libopenal.dir/rule
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/libopenal.dir/rule
 .PHONY : core/CMakeFiles/libopenal.dir/rule
 
 # Convenience name for target.
@@ -134,15 +134,39 @@ libopenal: core/CMakeFiles/libopenal.dir/rule
 
 # fast build rule for target.
 libopenal/fast:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/libopenal.dir/build.make core/CMakeFiles/libopenal.dir/build
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/libopenal.dir/build.make core/CMakeFiles/libopenal.dir/build
 .PHONY : libopenal/fast
+
+audio.o: audio.cpp.o
+.PHONY : audio.o
+
+# target to build an object file
+audio.cpp.o:
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/audio.cpp.o
+.PHONY : audio.cpp.o
+
+audio.i: audio.cpp.i
+.PHONY : audio.i
+
+# target to preprocess a source file
+audio.cpp.i:
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/audio.cpp.i
+.PHONY : audio.cpp.i
+
+audio.s: audio.cpp.s
+.PHONY : audio.s
+
+# target to generate assembly for a file
+audio.cpp.s:
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/audio.cpp.s
+.PHONY : audio.cpp.s
 
 beatmap.o: beatmap.cpp.o
 .PHONY : beatmap.o
 
 # target to build an object file
 beatmap.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/beatmap.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/beatmap.cpp.o
 .PHONY : beatmap.cpp.o
 
 beatmap.i: beatmap.cpp.i
@@ -150,7 +174,7 @@ beatmap.i: beatmap.cpp.i
 
 # target to preprocess a source file
 beatmap.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/beatmap.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/beatmap.cpp.i
 .PHONY : beatmap.cpp.i
 
 beatmap.s: beatmap.cpp.s
@@ -158,7 +182,7 @@ beatmap.s: beatmap.cpp.s
 
 # target to generate assembly for a file
 beatmap.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/beatmap.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/beatmap.cpp.s
 .PHONY : beatmap.cpp.s
 
 main.o: main.cpp.o
@@ -166,7 +190,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -174,7 +198,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -182,7 +206,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 osugame.o: osugame.cpp.o
@@ -190,7 +214,7 @@ osugame.o: osugame.cpp.o
 
 # target to build an object file
 osugame.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/osugame.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/osugame.cpp.o
 .PHONY : osugame.cpp.o
 
 osugame.i: osugame.cpp.i
@@ -198,7 +222,7 @@ osugame.i: osugame.cpp.i
 
 # target to preprocess a source file
 osugame.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/osugame.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/osugame.cpp.i
 .PHONY : osugame.cpp.i
 
 osugame.s: osugame.cpp.s
@@ -206,7 +230,7 @@ osugame.s: osugame.cpp.s
 
 # target to generate assembly for a file
 osugame.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/osugame.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/osugame.cpp.s
 .PHONY : osugame.cpp.s
 
 primitive.o: primitive.cpp.o
@@ -214,7 +238,7 @@ primitive.o: primitive.cpp.o
 
 # target to build an object file
 primitive.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/primitive.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/primitive.cpp.o
 .PHONY : primitive.cpp.o
 
 primitive.i: primitive.cpp.i
@@ -222,7 +246,7 @@ primitive.i: primitive.cpp.i
 
 # target to preprocess a source file
 primitive.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/primitive.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/primitive.cpp.i
 .PHONY : primitive.cpp.i
 
 primitive.s: primitive.cpp.s
@@ -230,7 +254,7 @@ primitive.s: primitive.cpp.s
 
 # target to generate assembly for a file
 primitive.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/primitive.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/primitive.cpp.s
 .PHONY : primitive.cpp.s
 
 shaderprogram.o: shaderprogram.cpp.o
@@ -238,7 +262,7 @@ shaderprogram.o: shaderprogram.cpp.o
 
 # target to build an object file
 shaderprogram.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/shaderprogram.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/shaderprogram.cpp.o
 .PHONY : shaderprogram.cpp.o
 
 shaderprogram.i: shaderprogram.cpp.i
@@ -246,7 +270,7 @@ shaderprogram.i: shaderprogram.cpp.i
 
 # target to preprocess a source file
 shaderprogram.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/shaderprogram.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/shaderprogram.cpp.i
 .PHONY : shaderprogram.cpp.i
 
 shaderprogram.s: shaderprogram.cpp.s
@@ -254,7 +278,7 @@ shaderprogram.s: shaderprogram.cpp.s
 
 # target to generate assembly for a file
 shaderprogram.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/shaderprogram.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/shaderprogram.cpp.s
 .PHONY : shaderprogram.cpp.s
 
 vsml.o: vsml.cpp.o
@@ -262,7 +286,7 @@ vsml.o: vsml.cpp.o
 
 # target to build an object file
 vsml.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/vsml.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/vsml.cpp.o
 .PHONY : vsml.cpp.o
 
 vsml.i: vsml.cpp.i
@@ -270,7 +294,7 @@ vsml.i: vsml.cpp.i
 
 # target to preprocess a source file
 vsml.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/vsml.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/vsml.cpp.i
 .PHONY : vsml.cpp.i
 
 vsml.s: vsml.cpp.s
@@ -278,7 +302,7 @@ vsml.s: vsml.cpp.s
 
 # target to generate assembly for a file
 vsml.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/vsml.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/vsml.cpp.s
 .PHONY : vsml.cpp.s
 
 # Help Target
@@ -289,9 +313,12 @@ help:
 	@echo "... depend"
 	@echo "... core"
 	@echo "... edit_cache"
-	@echo "... libmpg123"
+	@echo "... libmad"
 	@echo "... libopenal"
 	@echo "... rebuild_cache"
+	@echo "... audio.o"
+	@echo "... audio.i"
+	@echo "... audio.s"
 	@echo "... beatmap.o"
 	@echo "... beatmap.i"
 	@echo "... beatmap.s"
@@ -321,6 +348,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

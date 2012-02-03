@@ -39,7 +39,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu
+CMAKE_BINARY_DIR = /home/psastras/osu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,14 +66,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/CMakeFiles /gpfs/main/home/psastras/osu/desktop/CMakeFiles/progress.marks
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/CMakeFiles 0
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/CMakeFiles /home/psastras/osu/desktop/CMakeFiles/progress.marks
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/clean
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +82,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/preinstall
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/preinstall
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 desktop/CMakeFiles/osu.dir/rule:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/CMakeFiles/osu.dir/rule
+	cd /home/psastras/osu && $(MAKE) -f CMakeFiles/Makefile2 desktop/CMakeFiles/osu.dir/rule
 .PHONY : desktop/CMakeFiles/osu.dir/rule
 
 # Convenience name for target.
@@ -106,7 +106,7 @@ osu: desktop/CMakeFiles/osu.dir/rule
 
 # fast build rule for target.
 osu/fast:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/build
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/build
 .PHONY : osu/fast
 
 glwidget.o: glwidget.cpp.o
@@ -114,7 +114,7 @@ glwidget.o: glwidget.cpp.o
 
 # target to build an object file
 glwidget.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/glwidget.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/glwidget.cpp.o
 .PHONY : glwidget.cpp.o
 
 glwidget.i: glwidget.cpp.i
@@ -122,7 +122,7 @@ glwidget.i: glwidget.cpp.i
 
 # target to preprocess a source file
 glwidget.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/glwidget.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/glwidget.cpp.i
 .PHONY : glwidget.cpp.i
 
 glwidget.s: glwidget.cpp.s
@@ -130,7 +130,7 @@ glwidget.s: glwidget.cpp.s
 
 # target to generate assembly for a file
 glwidget.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/glwidget.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/glwidget.cpp.s
 .PHONY : glwidget.cpp.s
 
 main.o: main.cpp.o
@@ -138,7 +138,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/main.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -146,7 +146,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/main.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -154,7 +154,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/main.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -162,7 +162,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/mainwindow.cpp.o
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -170,7 +170,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/mainwindow.cpp.i
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -178,7 +178,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/mainwindow.cpp.s
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 moc_glwidget.o: moc_glwidget.cxx.o
@@ -186,7 +186,7 @@ moc_glwidget.o: moc_glwidget.cxx.o
 
 # target to build an object file
 moc_glwidget.cxx.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.o
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.o
 .PHONY : moc_glwidget.cxx.o
 
 moc_glwidget.i: moc_glwidget.cxx.i
@@ -194,7 +194,7 @@ moc_glwidget.i: moc_glwidget.cxx.i
 
 # target to preprocess a source file
 moc_glwidget.cxx.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.i
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.i
 .PHONY : moc_glwidget.cxx.i
 
 moc_glwidget.s: moc_glwidget.cxx.s
@@ -202,7 +202,7 @@ moc_glwidget.s: moc_glwidget.cxx.s
 
 # target to generate assembly for a file
 moc_glwidget.cxx.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.s
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_glwidget.cxx.s
 .PHONY : moc_glwidget.cxx.s
 
 moc_mainwindow.o: moc_mainwindow.cxx.o
@@ -210,7 +210,7 @@ moc_mainwindow.o: moc_mainwindow.cxx.o
 
 # target to build an object file
 moc_mainwindow.cxx.o:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.o
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.o
 .PHONY : moc_mainwindow.cxx.o
 
 moc_mainwindow.i: moc_mainwindow.cxx.i
@@ -218,7 +218,7 @@ moc_mainwindow.i: moc_mainwindow.cxx.i
 
 # target to preprocess a source file
 moc_mainwindow.cxx.i:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.i
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.i
 .PHONY : moc_mainwindow.cxx.i
 
 moc_mainwindow.s: moc_mainwindow.cxx.s
@@ -226,7 +226,7 @@ moc_mainwindow.s: moc_mainwindow.cxx.s
 
 # target to generate assembly for a file
 moc_mainwindow.cxx.s:
-	cd /gpfs/main/home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.s
+	cd /home/psastras/osu && $(MAKE) -f desktop/CMakeFiles/osu.dir/build.make desktop/CMakeFiles/osu.dir/moc_mainwindow.cxx.s
 .PHONY : moc_mainwindow.cxx.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /gpfs/main/home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/psastras/osu && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-/gpfs/main/home/psastras/osu/core/CMakeFiles/core.dir
-/gpfs/main/home/psastras/osu/core/CMakeFiles/libmpg123.dir
-/gpfs/main/home/psastras/osu/core/CMakeFiles/libopenal.dir
-/gpfs/main/home/psastras/osu/desktop/CMakeFiles/osu.dir
+/home/psastras/osu/core/CMakeFiles/core.dir
+/home/psastras/osu/core/CMakeFiles/libmad.dir
+/home/psastras/osu/core/CMakeFiles/libopenal.dir
+/home/psastras/osu/desktop/CMakeFiles/osu.dir

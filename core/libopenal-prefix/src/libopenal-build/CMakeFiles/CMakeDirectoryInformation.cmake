@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/psastras/osu/core/3rdparty/OpenAL")
-SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build")
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build")
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)

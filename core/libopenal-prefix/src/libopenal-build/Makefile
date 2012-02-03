@@ -39,7 +39,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu/core/3rdparty/OpenAL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build
+CMAKE_BINARY_DIR = /home/psastras/osu/core/libopenal-prefix/src/libopenal-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -107,9 +107,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

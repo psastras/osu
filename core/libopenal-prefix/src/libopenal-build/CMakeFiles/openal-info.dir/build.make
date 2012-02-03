@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_SOURCE_DIR = /home/psastras/osu/core/3rdparty/OpenAL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build
+CMAKE_BINARY_DIR = /home/psastras/osu/core/libopenal-prefix/src/libopenal-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/openal-info.dir/depend.make
@@ -48,7 +48,7 @@ include CMakeFiles/openal-info.dir/flags.make
 
 CMakeFiles/openal-info.dir/utils/openal-info.o: CMakeFiles/openal-info.dir/flags.make
 CMakeFiles/openal-info.dir/utils/openal-info.o: /home/psastras/osu/core/3rdparty/OpenAL/utils/openal-info.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/openal-info.dir/utils/openal-info.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/openal-info.dir/utils/openal-info.o   -c /home/psastras/osu/core/3rdparty/OpenAL/utils/openal-info.c
 
@@ -96,6 +96,6 @@ CMakeFiles/openal-info.dir/clean:
 .PHONY : CMakeFiles/openal-info.dir/clean
 
 CMakeFiles/openal-info.dir/depend:
-	cd /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu/core/3rdparty/OpenAL /home/psastras/osu/core/3rdparty/OpenAL /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build /gpfs/main/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psastras/osu/core/libopenal-prefix/src/libopenal-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psastras/osu/core/3rdparty/OpenAL /home/psastras/osu/core/3rdparty/OpenAL /home/psastras/osu/core/libopenal-prefix/src/libopenal-build /home/psastras/osu/core/libopenal-prefix/src/libopenal-build /home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openal-info.dir/depend
 

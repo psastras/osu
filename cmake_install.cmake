@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/gpfs/main/home/psastras/osu/core/cmake_install.cmake")
-  INCLUDE("/gpfs/main/home/psastras/osu/desktop/cmake_install.cmake")
+  INCLUDE("/home/psastras/osu/core/cmake_install.cmake")
+  INCLUDE("/home/psastras/osu/desktop/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -45,7 +45,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/gpfs/main/home/psastras/osu/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/psastras/osu/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/gpfs/main/home/psastras/osu/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/psastras/osu/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
