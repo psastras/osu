@@ -1,2 +1,0 @@
-/usr/bin/ar cr bin/libosu.a  CMakeFiles/osu.dir/main.cpp.o CMakeFiles/osu.dir/beatmap.cpp.o CMakeFiles/osu.dir/primitive.cpp.o CMakeFiles/osu.dir/shaderprogram.cpp.o CMakeFiles/osu.dir/vsml.cpp.o
-/usr/bin/ranlib bin/libosu.a

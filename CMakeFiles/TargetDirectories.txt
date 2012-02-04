@@ -1,4 +1,0 @@
-/home/psastras/osu/core/CMakeFiles/core.dir
-/home/psastras/osu/core/CMakeFiles/libmad.dir
-/home/psastras/osu/core/CMakeFiles/libopenal.dir
-/home/psastras/osu/desktop/CMakeFiles/osu.dir
