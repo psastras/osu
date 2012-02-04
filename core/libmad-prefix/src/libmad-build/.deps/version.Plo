@@ -1,9 +1,0 @@
-version.lo: /home/psastras/osu/core/3rdparty/mad/version.c config.h \
- /home/psastras/osu/core/3rdparty/mad/global.h \
- /home/psastras/osu/core/3rdparty/mad/version.h
-
-config.h:
-
-/home/psastras/osu/core/3rdparty/mad/global.h:
-
-/home/psastras/osu/core/3rdparty/mad/version.h:

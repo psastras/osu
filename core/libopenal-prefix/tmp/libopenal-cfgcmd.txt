@@ -1,1 +1,1 @@
-cmd='c:/Program Files (x86)/CMake 2.8/bin/cmake.exe;-DCMAKE_INSTALL_PREFIX=C:/Users/psastras/Projects/osu/core/3rdparty/install;-GMSYS Makefiles;C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL'
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/psastras/osu/core/3rdparty/install;-GUnix Makefiles;/home/psastras/osu/core/3rdparty/OpenAL'

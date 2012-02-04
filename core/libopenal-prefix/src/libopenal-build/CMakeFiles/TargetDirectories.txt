@@ -1,2 +1,2 @@
-C:/Users/psastras/Projects/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/OpenAL32.dir
-C:/Users/psastras/Projects/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir
+/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal.dir
+/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir

@@ -3,7 +3,7 @@
 
 #include <QGLWidget>
 #include <QTimer>
-
+#include "../core/osugame.h"
 class GLWidget : public QGLWidget
 {
     Q_OBJECT
@@ -18,7 +18,7 @@ protected:
 	void paintGL();
 
 	QTimer m_timer;
-
+	OsuGame *m_game;
 
 public slots:
 

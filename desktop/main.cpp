@@ -1,31 +1,32 @@
 #include <QtGui/QApplication>
-#include "../core/beatmap.h"
-#include "../core/osugame.h"
+
 #include "mainwindow.h"
+#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <iostream>
 #include <QDebug>
+#include "../core/beatmap.h"
+#include "../core/osugame.h"
 int main(int argc, char *argv[])
 {
 
-	std::ifstream file("songs/song.osz", std::ios::in|std::ios::binary|std::ios::ate);
-	char * memblock;
-	std::ifstream::pos_type size;
-	if (file.is_open())
-	  {
-		size = file.tellg();
-		memblock = new char [size];
-		file.seekg (0, std::ios::beg);
-		file.read (memblock, size);
-		file.close();
-		std::cout << size << std::endl;
-		OsuGame *game = new OsuGame(memblock, size);
 
-		delete[] memblock;
-	  }
+//	std::ifstream file("songs/song.osz", std::ios::in|std::ios::binary|std::ios::ate);
+//	char * memblock;
+//	std::ifstream::pos_type size;
+//	if (file.is_open())
+//  {
+//	size = file.tellg();
+//	memblock = new char [size];
+//	file.seekg (0, std::ios::beg);
+//	file.read (memblock, size);
+//	file.close();
 
-
+//	OsuGame *g = new OsuGame(memblock, size);
+//	g->start(0);
+//	delete[] memblock;
+//  }
 
 //	std::wfstream file("songs/Heaven/Envy - Heaven (Charles445) [Easy].osu");
 //	std::wstring line;

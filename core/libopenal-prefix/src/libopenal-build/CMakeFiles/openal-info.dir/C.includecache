@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/include/AL/al.h
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/al.h
 
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/include/AL/alc.h
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/alc.h
 
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/include/AL/alext.h
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/alext.h
 stddef.h
 -
 efx.h
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/include/AL/efx.h
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/efx.h
 
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/include/AL/efx.h
+/home/psastras/osu/core/3rdparty/OpenAL/include/AL/efx.h
 
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/utils/openal-info.c
+/home/psastras/osu/core/3rdparty/OpenAL/utils/openal-info.c
 config.h
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/utils/config.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/config.h
 stdio.h
 -
 string.h
 -
 AL/alc.h
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/utils/AL/alc.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/AL/alc.h
 AL/al.h
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/utils/AL/al.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/AL/al.h
 AL/alext.h
-C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/utils/AL/alext.h
+/home/psastras/osu/core/3rdparty/OpenAL/utils/AL/alext.h
 
 config.h
 

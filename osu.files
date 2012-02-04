@@ -27,8 +27,9 @@ core/3rdparty/install/include/GLES2/gl2ext.h
 core/audio.h
 core/audio.cpp
 core/3rdparty/install/include/mad.h
-core/3rdparty/install/include/AL/efx-creative.h
-core/3rdparty/install/include/AL/efx.h
-core/3rdparty/install/include/AL/alext.h
-core/3rdparty/install/include/AL/alc.h
-core/3rdparty/install/include/AL/al.h
+LICENSE.txt
+README.txt
+core/osurenderer.h
+core/osurenderer.cpp
+core/shaders/solid.glsl
+core/shaders/solid.h

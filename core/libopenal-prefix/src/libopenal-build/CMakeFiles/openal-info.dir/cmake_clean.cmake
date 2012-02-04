@@ -1,9 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/openal-info.dir/utils/openal-info.obj"
+  "CMakeFiles/openal-info.dir/utils/openal-info.o"
   "openal-info.pdb"
-  "openal-info.exe"
-  "openal-info.exe.manifest"
-  "libopenal-info.dll.a"
+  "openal-info"
 )
 
 # Per-language clean rules from dependency scanning.

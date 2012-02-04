@@ -5,10 +5,10 @@
 #define ALSOFT_VERSION "1.13"
 
 /* Define if we have the ALSA backend */
-/* #undef HAVE_ALSA */
+#define HAVE_ALSA
 
 /* Define if we have the OSS backend */
-/* #undef HAVE_OSS */
+#define HAVE_OSS
 
 /* Define if we have the Solaris backend */
 /* #undef HAVE_SOLARIS */
@@ -17,19 +17,19 @@
 /* #undef HAVE_DSOUND */
 
 /* Define if we have the Windows Multimedia backend */
-#define HAVE_WINMM
+/* #undef HAVE_WINMM */
 
 /* Define if we have the PortAudio backend */
 /* #undef HAVE_PORTAUDIO */
 
 /* Define if we have the PulseAudio backend */
-/* #undef HAVE_PULSEAUDIO */
+#define HAVE_PULSEAUDIO
 
 /* Define if we have the Wave Writer backend */
 #define HAVE_WAVE
 
 /* Define if we have dlfcn.h */
-/* #undef HAVE_DLFCN_H */
+#define HAVE_DLFCN_H
 
 /* Define if we have the stat function */
 #define HAVE_STAT
@@ -89,9 +89,9 @@
 #define HAVE_FESETROUND
 
 /* Define if we have _controlfp() */
-#define HAVE__CONTROLFP
+/* #undef HAVE__CONTROLFP */
 
 /* Define if we have pthread_setschedparam() */
-/* #undef HAVE_PTHREAD_SETSCHEDPARAM */
+#define HAVE_PTHREAD_SETSCHEDPARAM
 
 #endif

@@ -6,11 +6,105 @@
 
 #IncludeRegexTransform: 
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/Qt3Support/q3cstring.h
+/home/psastras/osu/desktop/../core/3rdparty/install/include/AL/al.h
+
+/home/psastras/osu/desktop/../core/3rdparty/install/include/mad.h
+
+/home/psastras/osu/desktop/../core/audio.h
+3rdparty/install/include/mad.h
+/home/psastras/osu/desktop/../core/3rdparty/install/include/mad.h
+3rdparty/install/include/AL/al.h
+/home/psastras/osu/desktop/../core/3rdparty/install/include/AL/al.h
+string
+-
+thread
+-
+
+/home/psastras/osu/desktop/../core/beatmap.h
+string
+-
+vector
+-
+
+/home/psastras/osu/desktop/../core/osugame.h
+string
+-
+vector
+-
+unordered_map
+-
+sys/time.h
+-
+thread
+-
+beatmap.h
+/home/psastras/osu/desktop/../core/beatmap.h
+audio.h
+/home/psastras/osu/desktop/../core/audio.h
+osurenderer.h
+/home/psastras/osu/desktop/../core/osurenderer.h
+
+/home/psastras/osu/desktop/../core/osurenderer.h
+unordered_map
+-
+string
+-
+
+/home/psastras/osu/desktop/glwidget.cpp
+glwidget.h
+/home/psastras/osu/desktop/glwidget.h
+iostream
+-
+fstream
+-
+sstream
+-
+QDebug
+-
+iostream
+-
+../core/beatmap.h
+/home/psastras/osu/desktop/../core/beatmap.h
+../core/osugame.h
+/home/psastras/osu/desktop/../core/osugame.h
+
+/home/psastras/osu/desktop/glwidget.h
+QGLWidget
+-
+QTimer
+-
+../core/osugame.h
+/home/psastras/osu/desktop/../core/osugame.h
+
+/home/psastras/osu/desktop/main.cpp
+QtGui/QApplication
+-
+mainwindow.h
+/home/psastras/osu/desktop/mainwindow.h
+iostream
+-
+fstream
+-
+sstream
+-
+iostream
+-
+QDebug
+-
+../core/beatmap.h
+/home/psastras/osu/desktop/../core/beatmap.h
+../core/osugame.h
+/home/psastras/osu/desktop/../core/osugame.h
+
+/home/psastras/osu/desktop/mainwindow.h
+QMainWindow
+-
+
+/usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/Qt3Support/q3valuelist.h
+/usr/include/qt4/Qt3Support/q3valuelist.h
 QtCore/qalgorithms.h
 -
 QtCore/qdatastream.h
@@ -24,99 +118,103 @@ iterator
 list
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QDebug
+/usr/include/qt4/QtCore/QDebug
 qdebug.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qdebug.h
+/usr/include/qt4/QtCore/qdebug.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QPoint
+/usr/include/qt4/QtCore/QPoint
 qpoint.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qpoint.h
+/usr/include/qt4/QtCore/qpoint.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QPointF
+/usr/include/qt4/QtCore/QPointF
 qpoint.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qpoint.h
+/usr/include/qt4/QtCore/qpoint.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qalgorithms.h
+/usr/include/qt4/QtCore/QTimer
+qtimer.h
+/usr/include/qt4/QtCore/qtimer.h
+
+/usr/include/qt4/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic.h
+/usr/include/qt4/QtCore/qatomic.h
 QtCore/qglobal.h
 -
 QtCore/qbasicatomic.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_alpha.h
+/usr/include/qt4/QtCore/qatomic_alpha.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_arch.h
+/usr/include/qt4/QtCore/qatomic_arch.h
 QtCore/qglobal.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qglobal.h
+/usr/include/qt4/QtCore/QtCore/qglobal.h
 QtCore/qatomic_vxworks.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_vxworks.h
+/usr/include/qt4/QtCore/QtCore/qatomic_vxworks.h
 QtCore/qatomic_alpha.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_alpha.h
+/usr/include/qt4/QtCore/QtCore/qatomic_alpha.h
 QtCore/qatomic_arm.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_arm.h
+/usr/include/qt4/QtCore/QtCore/qatomic_arm.h
 QtCore/qatomic_armv6.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_armv6.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv6.h
 QtCore/qatomic_avr32.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_avr32.h
+/usr/include/qt4/QtCore/QtCore/qatomic_avr32.h
 QtCore/qatomic_bfin.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_bfin.h
+/usr/include/qt4/QtCore/QtCore/qatomic_bfin.h
 QtCore/qatomic_generic.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_generic.h
+/usr/include/qt4/QtCore/QtCore/qatomic_generic.h
 QtCore/qatomic_i386.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_i386.h
+/usr/include/qt4/QtCore/QtCore/qatomic_i386.h
 QtCore/qatomic_ia64.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_ia64.h
+/usr/include/qt4/QtCore/QtCore/qatomic_ia64.h
 QtCore/qatomic_macosx.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_macosx.h
+/usr/include/qt4/QtCore/QtCore/qatomic_macosx.h
 QtCore/qatomic_mips.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_mips.h
+/usr/include/qt4/QtCore/QtCore/qatomic_mips.h
 QtCore/qatomic_parisc.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_parisc.h
+/usr/include/qt4/QtCore/QtCore/qatomic_parisc.h
 QtCore/qatomic_powerpc.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_powerpc.h
+/usr/include/qt4/QtCore/QtCore/qatomic_powerpc.h
 QtCore/qatomic_s390.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_s390.h
+/usr/include/qt4/QtCore/QtCore/qatomic_s390.h
 QtCore/qatomic_sparc.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_sparc.h
+/usr/include/qt4/QtCore/QtCore/qatomic_sparc.h
 QtCore/qatomic_windows.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_windows.h
+/usr/include/qt4/QtCore/QtCore/qatomic_windows.h
 QtCore/qatomic_windowsce.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_windowsce.h
+/usr/include/qt4/QtCore/QtCore/qatomic_windowsce.h
 QtCore/qatomic_x86_64.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_x86_64.h
+/usr/include/qt4/QtCore/QtCore/qatomic_x86_64.h
 QtCore/qatomic_symbian.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_symbian.h
+/usr/include/qt4/QtCore/QtCore/qatomic_symbian.h
 QtCore/qatomic_sh.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_sh.h
+/usr/include/qt4/QtCore/QtCore/qatomic_sh.h
 QtCore/qatomic_sh4a.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_sh4a.h
+/usr/include/qt4/QtCore/QtCore/qatomic_sh4a.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_arm.h
+/usr/include/qt4/QtCore/qatomic_arm.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_armv6.h
+/usr/include/qt4/QtCore/qatomic_armv6.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_avr32.h
+/usr/include/qt4/QtCore/qatomic_avr32.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_bfin.h
+/usr/include/qt4/QtCore/qatomic_bfin.h
 asm/fixed_code.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_bootstrap.h
+/usr/include/qt4/QtCore/qatomic_bootstrap.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_generic.h
+/usr/include/qt4/QtCore/qatomic_generic.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_i386.h
+/usr/include/qt4/QtCore/qatomic_i386.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_ia64.h
+/usr/include/qt4/QtCore/qatomic_ia64.h
 ia64intrin.h
 -
 ia64/sys/inline.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_macosx.h
+/usr/include/qt4/QtCore/qatomic_macosx.h
 QtCore/qatomic_x86_64.h
 -
 QtCore/qatomic_i386.h
@@ -124,27 +222,27 @@ QtCore/qatomic_i386.h
 QtCore/qatomic_powerpc.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_mips.h
+/usr/include/qt4/QtCore/qatomic_mips.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_parisc.h
+/usr/include/qt4/QtCore/qatomic_parisc.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_powerpc.h
+/usr/include/qt4/QtCore/qatomic_powerpc.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_s390.h
+/usr/include/qt4/QtCore/qatomic_s390.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_sh.h
+/usr/include/qt4/QtCore/qatomic_sh.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_sh4a.h
+/usr/include/qt4/QtCore/qatomic_sh4a.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_sparc.h
+/usr/include/qt4/QtCore/qatomic_sparc.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_symbian.h
+/usr/include/qt4/QtCore/qatomic_symbian.h
 QtCore/qglobal.h
 -
 e32std.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_vxworks.h
+/usr/include/qt4/QtCore/qatomic_vxworks.h
 QtCore/qatomic_powerpc.h
 -
 vxWorksCommon.h
@@ -152,23 +250,23 @@ vxWorksCommon.h
 taskLib.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_windows.h
+/usr/include/qt4/QtCore/qatomic_windows.h
 QtCore/qatomic_i386.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_i386.h
+/usr/include/qt4/QtCore/QtCore/qatomic_i386.h
 QtCore/qatomic_x86_64.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_x86_64.h
+/usr/include/qt4/QtCore/QtCore/qatomic_x86_64.h
 winbase.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_windowsce.h
+/usr/include/qt4/QtCore/qatomic_windowsce.h
 QtCore/qglobal.h
 -
 QtCore/qatomic_windows.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/QtCore/qatomic_windows.h
+/usr/include/qt4/QtCore/QtCore/qatomic_windows.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qatomic_x86_64.h
+/usr/include/qt4/QtCore/qatomic_x86_64.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qbasicatomic.h
+/usr/include/qt4/QtCore/qbasicatomic.h
 QtCore/qglobal.h
 -
 QtCore/qatomic_bootstrap.h
@@ -176,13 +274,17 @@ QtCore/qatomic_bootstrap.h
 QtCore/qatomic_arch.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qbuffer.h
+/usr/include/qt4/QtCore/qbasictimer.h
+QtCore/qglobal.h
+-
+
+/usr/include/qt4/QtCore/qbuffer.h
 QtCore/qiodevice.h
 -
 QtCore/qbytearray.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qbytearray.h
+/usr/include/qt4/QtCore/qbytearray.h
 QtCore/qatomic.h
 -
 QtCore/qnamespace.h
@@ -192,13 +294,13 @@ string.h
 stdarg.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qchar.h
+/usr/include/qt4/QtCore/qchar.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qconfig.h
+/usr/include/qt4/QtCore/qconfig.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qcontiguouscache.h
+/usr/include/qt4/QtCore/qcontiguouscache.h
 QtCore/qatomic.h
 -
 limits.h
@@ -206,7 +308,7 @@ limits.h
 new
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qcoreapplication.h
+/usr/include/qt4/QtCore/qcoreapplication.h
 QtCore/qobject.h
 -
 QtCore/qcoreevent.h
@@ -216,7 +318,7 @@ QtCore/qeventloop.h
 QtCore/qstringlist.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qcoreevent.h
+/usr/include/qt4/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
 QtCore/qbytearray.h
@@ -224,7 +326,7 @@ QtCore/qbytearray.h
 QtCore/qobjectdefs.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qdatastream.h
+/usr/include/qt4/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
 -
 QtCore/qiodevice.h
@@ -232,7 +334,7 @@ QtCore/qiodevice.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qdebug.h
+/usr/include/qt4/QtCore/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -254,13 +356,13 @@ QtCore/qset.h
 QtCore/qcontiguouscache.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qeventloop.h
+/usr/include/qt4/QtCore/qeventloop.h
 QtCore/qobject.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qfeatures.h
+/usr/include/qt4/QtCore/qfeatures.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qglobal.h
+/usr/include/qt4/QtCore/qglobal.h
 stddef.h
 -
 QtCore/qconfig.h
@@ -272,7 +374,7 @@ e32def.h
 QtCore/qfeatures.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qhash.h
+/usr/include/qt4/QtCore/qhash.h
 QtCore/qatomic.h
 -
 QtCore/qchar.h
@@ -284,7 +386,7 @@ QtCore/qlist.h
 QtCore/qpair.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qiodevice.h
+/usr/include/qt4/QtCore/qiodevice.h
 QtCore/qobject.h
 -
 QtCore/qobjectdefs.h
@@ -294,15 +396,15 @@ QtCore/qscopedpointer.h
 QtCore/qstring.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qiterator.h
+/usr/include/qt4/QtCore/qiterator.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qline.h
+/usr/include/qt4/QtCore/qline.h
 QtCore/qpoint.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qlinkedlist.h
+/usr/include/qt4/QtCore/qlinkedlist.h
 QtCore/qiterator.h
 -
 QtCore/qatomic.h
@@ -312,7 +414,7 @@ iterator
 list
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qlist.h
+/usr/include/qt4/QtCore/qlist.h
 QtCore/qiterator.h
 -
 QtCore/qatomic.h
@@ -325,18 +427,16 @@ list
 -
 new
 -
-limits.h
--
 string.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qlocale.h
+/usr/include/qt4/QtCore/qlocale.h
 QtCore/qstring.h
 -
 QtCore/qobjectdefs.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qmap.h
+/usr/include/qt4/QtCore/qmap.h
 QtCore/qatomic.h
 -
 QtCore/qiterator.h
@@ -348,11 +448,11 @@ map
 new
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qmargins.h
+/usr/include/qt4/QtCore/qmargins.h
 QtCore/qnamespace.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qmetatype.h
+/usr/include/qt4/QtCore/qmetatype.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -360,17 +460,17 @@ QtCore/qatomic.h
 QtCore/qdatastream.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qmimedata.h
+/usr/include/qt4/QtCore/qmimedata.h
 QtCore/qvariant.h
 -
 QtCore/qobject.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qnamespace.h
+/usr/include/qt4/QtCore/qnamespace.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qobject.h
+/usr/include/qt4/QtCore/qobject.h
 QtCore/qobjectdefs.h
 -
 QtCore/qstring.h
@@ -384,49 +484,49 @@ QtCore/qcoreevent.h
 QtCore/qscopedpointer.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qobjectdefs.h
+/usr/include/qt4/QtCore/qobjectdefs.h
 QtCore/qnamespace.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qpair.h
+/usr/include/qt4/QtCore/qpair.h
 QtCore/qdatastream.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qpoint.h
+/usr/include/qt4/QtCore/qpoint.h
 QtCore/qnamespace.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qpointer.h
+/usr/include/qt4/QtCore/qpointer.h
 QtCore/qobject.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qrect.h
+/usr/include/qt4/QtCore/qrect.h
 QtCore/qsize.h
 -
 QtCore/qpoint.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qregexp.h
+/usr/include/qt4/QtCore/qregexp.h
 QtCore/qstring.h
 -
 new
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qscopedpointer.h
+/usr/include/qt4/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qset.h
+/usr/include/qt4/QtCore/qset.h
 QtCore/qhash.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qshareddata.h
+/usr/include/qt4/QtCore/qshareddata.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qsharedpointer.h
+/usr/include/qt4/QtCore/qsharedpointer.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -436,7 +536,7 @@ QtCore/qshareddata.h
 QtCore/qsharedpointer_impl.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qsharedpointer_impl.h
+/usr/include/qt4/QtCore/qsharedpointer_impl.h
 new
 -
 QtCore/qatomic.h
@@ -444,11 +544,11 @@ QtCore/qatomic.h
 QtCore/qobject.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qsize.h
+/usr/include/qt4/QtCore/qsize.h
 QtCore/qnamespace.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qstring.h
+/usr/include/qt4/QtCore/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -468,7 +568,7 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qstringbuilder.h
+/usr/include/qt4/QtCore/qstringbuilder.h
 QtCore/qstring.h
 -
 QtCore/qmap.h
@@ -476,7 +576,7 @@ QtCore/qmap.h
 string.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qstringlist.h
+/usr/include/qt4/QtCore/qstringlist.h
 QtCore/qalgorithms.h
 -
 QtCore/qdatastream.h
@@ -492,17 +592,23 @@ QtCore/qstringmatcher.h
 Qt3Support/q3valuelist.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qstringmatcher.h
+/usr/include/qt4/QtCore/qstringmatcher.h
 QtCore/qstring.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qtextcodec.h
+/usr/include/qt4/QtCore/qt_windows.h
+windows.h
+-
+ceconfig.h
+-
+
+/usr/include/qt4/QtCore/qtextcodec.h
 QtCore/qstring.h
 -
 QtCore/qlist.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qtextstream.h
+/usr/include/qt4/QtCore/qtextstream.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
@@ -518,7 +624,13 @@ QtCore/qtextcodec.h
 stdio.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qvariant.h
+/usr/include/qt4/QtCore/qtimer.h
+QtCore/qbasictimer.h
+-
+QtCore/qobject.h
+-
+
+/usr/include/qt4/QtCore/qvariant.h
 QtCore/qatomic.h
 -
 QtCore/qbytearray.h
@@ -534,7 +646,7 @@ QtCore/qhash.h
 QtCore/qstring.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtCore/qvector.h
+/usr/include/qt4/QtCore/qvector.h
 QtCore/qiterator.h
 -
 QtCore/qatomic.h
@@ -556,15 +668,15 @@ QtCore/QPointF
 QtCore/QPoint
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/QApplication
+/usr/include/qt4/QtGui/QApplication
 qapplication.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qapplication.h
+/usr/include/qt4/QtGui/qapplication.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/QMainWindow
+/usr/include/qt4/QtGui/QMainWindow
 qmainwindow.h
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qmainwindow.h
+/usr/include/qt4/QtGui/qmainwindow.h
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qapplication.h
+/usr/include/qt4/QtGui/qapplication.h
 QtCore/qcoreapplication.h
 -
 QtGui/qwindowdefs.h
@@ -586,7 +698,7 @@ QtGui/qrgb.h
 QtGui/qtransportauth_qws.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qbrush.h
+/usr/include/qt4/QtGui/qbrush.h
 QtCore/qpair.h
 -
 QtCore/qpoint.h
@@ -606,7 +718,7 @@ QtGui/qimage.h
 QtGui/qpixmap.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qcolor.h
+/usr/include/qt4/QtGui/qcolor.h
 QtGui/qrgb.h
 -
 QtCore/qnamespace.h
@@ -614,21 +726,31 @@ QtCore/qnamespace.h
 QtCore/qstringlist.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qcursor.h
+/usr/include/qt4/QtGui/qcursor.h
 QtCore/qpoint.h
 -
 QtGui/qwindowdefs.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qdesktopwidget.h
+/usr/include/qt4/QtGui/qdesktopwidget.h
 QtGui/qwidget.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qdrag.h
+/usr/include/qt4/QtGui/qdrag.h
 QtCore/qobject.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qevent.h
+/usr/include/qt4/QtGui/qdrawutil.h
+QtCore/qnamespace.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+QtGui/qpixmap.h
+-
+
+/usr/include/qt4/QtGui/qevent.h
 QtGui/qwindowdefs.h
 -
 QtCore/qobject.h
@@ -654,7 +776,7 @@ QtCore/qmap.h
 QtCore/qset.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qfont.h
+/usr/include/qt4/QtGui/qfont.h
 QtGui/qwindowdefs.h
 -
 QtCore/qstring.h
@@ -662,13 +784,13 @@ QtCore/qstring.h
 QtCore/qsharedpointer.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qfontinfo.h
+/usr/include/qt4/QtGui/qfontinfo.h
 QtGui/qfont.h
 -
 QtCore/qsharedpointer.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qfontmetrics.h
+/usr/include/qt4/QtGui/qfontmetrics.h
 QtGui/qfont.h
 -
 QtCore/qsharedpointer.h
@@ -676,7 +798,7 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qicon.h
+/usr/include/qt4/QtGui/qicon.h
 QtCore/qglobal.h
 -
 QtCore/qsize.h
@@ -686,7 +808,7 @@ QtCore/qlist.h
 QtGui/qpixmap.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qimage.h
+/usr/include/qt4/QtGui/qimage.h
 QtGui/qtransform.h
 -
 QtGui/qpaintdevice.h
@@ -700,25 +822,25 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qkeysequence.h
+/usr/include/qt4/QtGui/qkeysequence.h
 QtCore/qnamespace.h
 -
 QtCore/qstring.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qmacdefines_mac.h
+/usr/include/qt4/QtGui/qmacdefines_mac.h
 QtCore/qglobal.h
 -
 Cocoa/Cocoa.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qmainwindow.h
+/usr/include/qt4/QtGui/qmainwindow.h
 QtGui/qwidget.h
 -
 QtGui/qtabwidget.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qmatrix.h
+/usr/include/qt4/QtGui/qmatrix.h
 QtGui/qpolygon.h
 -
 QtGui/qregion.h
@@ -734,19 +856,61 @@ QtCore/qrect.h
 QtGui/qwmatrix.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qmime.h
+/usr/include/qt4/QtGui/qmime.h
 QtCore/qmimedata.h
 -
 QtCore/qvariant.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qpaintdevice.h
+/usr/include/qt4/QtGui/qpaintdevice.h
 QtGui/qwindowdefs.h
 -
 QtCore/qrect.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qpainterpath.h
+/usr/include/qt4/QtGui/qpaintengine.h
+QtCore/qnamespace.h
+-
+QtCore/qobjectdefs.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpainter.h
+-
+
+/usr/include/qt4/QtGui/qpainter.h
+QtCore/qnamespace.h
+-
+QtCore/qrect.h
+-
+QtCore/qpoint.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpixmap.h
+-
+QtGui/qimage.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qdrawutil.h
+-
+QtGui/qpolygon.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qmatrix.h
+-
+QtGui/qtransform.h
+-
+QtGui/qfontinfo.h
+-
+QtGui/qfontmetrics.h
+-
+
+/usr/include/qt4/QtGui/qpainterpath.h
 QtGui/qmatrix.h
 -
 QtCore/qglobal.h
@@ -760,7 +924,7 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qpalette.h
+/usr/include/qt4/QtGui/qpalette.h
 QtGui/qwindowdefs.h
 -
 QtGui/qcolor.h
@@ -768,7 +932,13 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qpixmap.h
+/usr/include/qt4/QtGui/qpen.h
+QtGui/qcolor.h
+-
+QtGui/qbrush.h
+-
+
+/usr/include/qt4/QtGui/qpixmap.h
 QtGui/qpaintdevice.h
 -
 QtGui/qcolor.h
@@ -784,7 +954,7 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qpolygon.h
+/usr/include/qt4/QtGui/qpolygon.h
 QtCore/qvector.h
 -
 QtCore/qpoint.h
@@ -792,7 +962,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qregion.h
+/usr/include/qt4/QtGui/qregion.h
 QtCore/qatomic.h
 -
 QtCore/qrect.h
@@ -802,21 +972,29 @@ QtGui/qwindowdefs.h
 QtCore/qdatastream.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qrgb.h
+/usr/include/qt4/QtGui/qrgb.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qsizepolicy.h
+/usr/include/qt4/QtGui/qsizepolicy.h
 QtCore/qobject.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qtabwidget.h
+/usr/include/qt4/QtGui/qtabwidget.h
 QtGui/qwidget.h
 -
 QtGui/qicon.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qtransform.h
+/usr/include/qt4/QtGui/qtextoption.h
+QtCore/qnamespace.h
+-
+QtCore/qchar.h
+-
+QtCore/qmetatype.h
+-
+
+/usr/include/qt4/QtGui/qtransform.h
 QtGui/qmatrix.h
 -
 QtGui/qpainterpath.h
@@ -834,7 +1012,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qtransportauth_qws.h
+/usr/include/qt4/QtGui/qtransportauth_qws.h
 QtCore/qglobal.h
 -
 QtCore/qobject.h
@@ -850,7 +1028,7 @@ QtCore/qpointer.h
 sys/types.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qwidget.h
+/usr/include/qt4/QtGui/qwidget.h
 QtGui/qwindowdefs.h
 -
 QtCore/qobject.h
@@ -880,7 +1058,7 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qwindowdefs.h
+/usr/include/qt4/QtGui/qwindowdefs.h
 QtCore/qobjectdefs.h
 -
 QtCore/qnamespace.h
@@ -890,63 +1068,47 @@ QtGui/qmacdefines_mac.h
 QtGui/qwindowdefs_win.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qwindowdefs_win.h
+/usr/include/qt4/QtGui/qwindowdefs_win.h
 QtCore/qglobal.h
 -
 
-C:/QtSDK/Desktop/Qt/4.7.4/mingw/include/QtGui/qwmatrix.h
+/usr/include/qt4/QtGui/qwmatrix.h
 QtGui/qmatrix.h
 -
 
-C:/Users/psastras/Projects/osu/desktop/../core/3rdparty/install/include/AL/al.h
+/usr/include/qt4/QtOpenGL/QGLWidget
+qgl.h
+/usr/include/qt4/QtOpenGL/qgl.h
 
-C:/Users/psastras/Projects/osu/desktop/../core/3rdparty/install/include/mad.h
-
-C:/Users/psastras/Projects/osu/desktop/../core/audio.h
-3rdparty/install/include/mad.h
-C:/Users/psastras/Projects/osu/desktop/../core/3rdparty/install/include/mad.h
-3rdparty/install/include/AL/al.h
-C:/Users/psastras/Projects/osu/desktop/../core/3rdparty/install/include/AL/al.h
-string
+/usr/include/qt4/QtOpenGL/qgl.h
+QtGui/qwidget.h
 -
-
-C:/Users/psastras/Projects/osu/desktop/../core/beatmap.h
-string
+QtGui/qpaintengine.h
 -
-vector
+QtOpenGL/qglcolormap.h
 -
-
-C:/Users/psastras/Projects/osu/desktop/../core/osugame.h
-string
+QtCore/qmap.h
 -
-vector
+QtCore/qscopedpointer.h
 -
-unordered_map
+QtCore/qt_windows.h
 -
-beatmap.h
-C:/Users/psastras/Projects/osu/desktop/../core/beatmap.h
-audio.h
-C:/Users/psastras/Projects/osu/desktop/../core/audio.h
-
-C:/Users/psastras/Projects/osu/desktop/main.cpp
-QtGui/QApplication
+OpenGL/gl.h
 -
-../core/beatmap.h
-C:/Users/psastras/Projects/osu/desktop/../core/beatmap.h
-../core/osugame.h
-C:/Users/psastras/Projects/osu/desktop/../core/osugame.h
-mainwindow.h
-C:/Users/psastras/Projects/osu/desktop/mainwindow.h
-fstream
+OpenGL/glu.h
 -
-sstream
+GLES/gl.h
 -
-iostream
+GLES2/gl2.h
 -
-QDebug
+GL/gl.h
+-
+GL/glu.h
 -
 
-C:/Users/psastras/Projects/osu/desktop/mainwindow.h
-QMainWindow
+/usr/include/qt4/QtOpenGL/qglcolormap.h
+QtGui/qcolor.h
+-
+QtCore/qvector.h
 -
 

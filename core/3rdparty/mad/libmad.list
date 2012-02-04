@@ -1,7 +1,7 @@
 # libmad.list.  Generated from libmad.list.in by configure.
 
 # Directories...
-$prefix=C:/Users/psastras/Projects/osu/core/3rdparty/install
+$prefix=/home/psastras/osu/core/3rdparty/install
 $exec_prefix=${prefix}
 $srcdir=.
 

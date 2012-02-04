@@ -1,4 +1,14 @@
-set(core_SRCS main.cpp beatmap.cpp primitive.cpp shaderprogram.cpp vsml.cpp osugame.cpp audio.cpp)
+set(SHADERS shaders/solid.glsl)
+foreach(_file ${SHADERS})
+	string(REPLACE ".glsl" ".h" _file_h ${_file})
+	add_custom_command(OUTPUT ${_file_h}
+					   COMMAND xxd -i ${_file} ${_file_h}
+					   MAIN_DEPENDENCY ${_file}
+					   COMMENT "${_file} -> ${_file_h}"
+					   VERBATIM)
+endforeach()
+set(core_SRCS main.cpp beatmap.cpp primitive.cpp shaderprogram.cpp vsml.cpp osugame.cpp audio.cpp osurenderer.cpp
+	shaders/solid.h)
 #add_executable(core ${core_SRCS})
 add_library(core ${core_SRCS})
 set_target_properties(core PROPERTIES VERSION 1.0.0 SOVERSION 1)

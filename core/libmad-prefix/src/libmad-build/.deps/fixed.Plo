@@ -1,9 +1,0 @@
-fixed.lo: /home/psastras/osu/core/3rdparty/mad/fixed.c config.h \
- /home/psastras/osu/core/3rdparty/mad/global.h \
- /home/psastras/osu/core/3rdparty/mad/fixed.h
-
-config.h:
-
-/home/psastras/osu/core/3rdparty/mad/global.h:
-
-/home/psastras/osu/core/3rdparty/mad/fixed.h:

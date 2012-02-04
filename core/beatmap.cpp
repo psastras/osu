@@ -22,12 +22,13 @@ enum
 
 BeatMap::BeatMap(const std::wstring &src)
 {
-    this->parseBeatmap(src);
+	this->parseBeatmap(src);
 }
 
 BeatMap::~BeatMap()
 {
 }
+
 
 
 bool BeatMap::isSectionHeader(const std::wstring &line) const
