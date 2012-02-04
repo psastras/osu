@@ -14,14 +14,21 @@ include(ExternalProject)
 ExternalProject_Add(libmad
 	SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/mad
 	CONFIGURE_COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/mad/configure --prefix=${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/install
-	BUILD_COMMAND ${MAKE})
+        BUILD_COMMAND ${MAKE}
+        BUILD_IN_SOURCE 1
+)
 set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/install)
 ExternalProject_Add(libopenal
 	SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/OpenAL
-	INSTALL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/install
+        INSTALL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/install
+        CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/install"
 )
 set(CMAKE_LIBRARY_PATH ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/install/lib)
-find_library(OPENAL_LIBRARY openal)
-find_library(ALUT_LIBRARY alut)
+
+if(WIN32)
+    find_library(OPENAL_LIBRARY OpenAL32)
+else()
+    find_library(OPENAL_LIBRARY openal)
+endif(WIN32)
 find_library(MAD_LIBRARY mad)
-target_link_libraries(core ${GLEW_LIBRARY} ${MAD_LIBRARY} ${OPENAL_LIBRARY} ${ALUT_LIBRARY})
+target_link_libraries(core ${GLEW_LIBRARY} ${MAD_LIBRARY} ${OPENAL_LIBRARY})

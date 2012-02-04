@@ -1,0 +1,19 @@
+stream.lo: stream.c config.h global.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h bit.h \
+ stream.h
+
+config.h:
+
+global.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+bit.h:
+
+stream.h:

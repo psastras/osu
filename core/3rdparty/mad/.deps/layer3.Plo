@@ -1,0 +1,43 @@
+layer3.lo: layer3.c config.h global.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/string.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/assert.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/limits.h \
+ fixed.h bit.h stream.h frame.h timer.h huffman.h layer3.h rq_table.dat \
+ imdct_s.dat
+
+config.h:
+
+global.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/string.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/assert.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/limits.h:
+
+fixed.h:
+
+bit.h:
+
+stream.h:
+
+frame.h:
+
+timer.h:
+
+huffman.h:
+
+layer3.h:
+
+rq_table.dat:
+
+imdct_s.dat:

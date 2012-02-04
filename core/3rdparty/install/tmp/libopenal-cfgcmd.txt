@@ -1,0 +1,1 @@
+cmd='c:/Program Files (x86)/CMake 2.8/bin/cmake.exe;PREFIX=C:/Users/psastras/Projects/osu/core/3rdparty/install;-GMSYS Makefiles;C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL'

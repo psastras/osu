@@ -1,11 +1,11 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/core.dir/main.cpp.o"
-  "CMakeFiles/core.dir/beatmap.cpp.o"
-  "CMakeFiles/core.dir/primitive.cpp.o"
-  "CMakeFiles/core.dir/shaderprogram.cpp.o"
-  "CMakeFiles/core.dir/vsml.cpp.o"
-  "CMakeFiles/core.dir/osugame.cpp.o"
-  "CMakeFiles/core.dir/audio.cpp.o"
+  "CMakeFiles/core.dir/main.cpp.obj"
+  "CMakeFiles/core.dir/beatmap.cpp.obj"
+  "CMakeFiles/core.dir/primitive.cpp.obj"
+  "CMakeFiles/core.dir/shaderprogram.cpp.obj"
+  "CMakeFiles/core.dir/vsml.cpp.obj"
+  "CMakeFiles/core.dir/osugame.cpp.obj"
+  "CMakeFiles/core.dir/audio.cpp.obj"
   "bin/libcore.pdb"
   "bin/libcore.a"
 )

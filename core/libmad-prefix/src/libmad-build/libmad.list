@@ -1,16 +1,16 @@
 # libmad.list.  Generated from libmad.list.in by configure.
 
 # Directories...
-$prefix=/home/psastras/osu/core/3rdparty/install
+$prefix=C:/Users/psastras/Projects/osu/core/3rdparty/install
 $exec_prefix=${prefix}
-$srcdir=/home/psastras/osu/core/3rdparty/mad
+$srcdir=/C/Users/psastras/Projects/osu/core/3rdparty/mad
 
 # Product information
 %product libmad
 %copyright GPL
 %vendor Underbit Technologies, Inc. <info@underbit.com>
-%license /home/psastras/osu/core/3rdparty/mad/COPYING
-%readme /home/psastras/osu/core/3rdparty/mad/README
+%license /C/Users/psastras/Projects/osu/core/3rdparty/mad/COPYING
+%readme /C/Users/psastras/Projects/osu/core/3rdparty/mad/README
 %description libmad is an MPEG audio decoder library.
 %version 0.15.1b
 %packager Giuseppe "Cowo" Corbelli <cowo@lugbs.linux.it>

@@ -1,0 +1,26 @@
+timer.lo: timer.c config.h global.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdio.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdarg.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/assert.h \
+ timer.h
+
+config.h:
+
+global.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdio.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdarg.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/assert.h:
+
+timer.h:

@@ -1,0 +1,53 @@
+decoder.lo: decoder.c config.h global.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/unistd.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/io.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/process.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdint.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/getopt.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/fcntl.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/errno.h \
+ stream.h bit.h frame.h fixed.h timer.h synth.h decoder.h
+
+config.h:
+
+global.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/unistd.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/io.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/process.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdint.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/getopt.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/fcntl.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/errno.h:
+
+stream.h:
+
+bit.h:
+
+frame.h:
+
+fixed.h:
+
+timer.h:
+
+synth.h:
+
+decoder.h:

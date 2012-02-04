@@ -1,0 +1,29 @@
+layer12.lo: layer12.c config.h global.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/limits.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ fixed.h bit.h stream.h frame.h timer.h layer12.h sf_table.dat \
+ qc_table.dat
+
+config.h:
+
+global.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/limits.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+fixed.h:
+
+bit.h:
+
+stream.h:
+
+frame.h:
+
+timer.h:
+
+layer12.h:
+
+sf_table.dat:
+
+qc_table.dat:

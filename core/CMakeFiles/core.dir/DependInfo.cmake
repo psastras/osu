@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/psastras/osu/core/audio.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/audio.cpp.o"
-  "/home/psastras/osu/core/beatmap.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/beatmap.cpp.o"
-  "/home/psastras/osu/core/main.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/main.cpp.o"
-  "/home/psastras/osu/core/osugame.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/osugame.cpp.o"
-  "/home/psastras/osu/core/primitive.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/primitive.cpp.o"
-  "/home/psastras/osu/core/shaderprogram.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/shaderprogram.cpp.o"
-  "/home/psastras/osu/core/vsml.cpp" "/home/psastras/osu/core/CMakeFiles/core.dir/vsml.cpp.o"
+  "C:/Users/psastras/Projects/osu/core/audio.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/audio.cpp.obj"
+  "C:/Users/psastras/Projects/osu/core/beatmap.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/beatmap.cpp.obj"
+  "C:/Users/psastras/Projects/osu/core/main.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/main.cpp.obj"
+  "C:/Users/psastras/Projects/osu/core/osugame.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/osugame.cpp.obj"
+  "C:/Users/psastras/Projects/osu/core/primitive.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/primitive.cpp.obj"
+  "C:/Users/psastras/Projects/osu/core/shaderprogram.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/shaderprogram.cpp.obj"
+  "C:/Users/psastras/Projects/osu/core/vsml.cpp" "C:/Users/psastras/Projects/osu/core/CMakeFiles/core.dir/vsml.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

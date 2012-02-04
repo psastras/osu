@@ -1,0 +1,119 @@
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: error: dlfcn.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: error: alsa/asoundlib.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: error: sys/soundcard.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/audioio.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error: sys/audioio.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dsound.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: error: dsound.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file portaudio.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: error: portaudio.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pulse/pulseaudio.h exists failed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+c:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:30: error: pulse/pulseaudio.h: No such file or directory
+make[4]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec/fast] Error 2
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+

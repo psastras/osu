@@ -1,0 +1,684 @@
+The system is: Windows - 6.1 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: c:/QtSDK/mingw/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+Target: mingw32
+Configured with: ../gcc-4.4.0/configure --enable-languages=c,ada,c++,fortran,java,objc,obj-c++ --disable-sjlj-exceptions --enable-shared --enable-libgcj --enable-libgomp --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --prefix=/mingw --with-gmp=/mingw/src/gmp/root --with-mpfr=/mingw/src/mpfr/root --build=mingw32
+Thread model: win32
+gcc version 4.4.0 (GCC) 
+COMPILER_PATH=c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/;c:/qtsdk/mingw/bin/../libexec/gcc/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/;c:/qtsdk/mingw/bin/../lib/gcc/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib/;c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-mtune=i386'
+ c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe -Bdynamic -o cmTryCompileExec.exe c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0 -Lc:/qtsdk/mingw/bin/../lib/gcc -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../.. --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"]
+  ignore line: [make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp']
+  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec.exe]
+  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a]
+  ignore line: [/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp]
+  ignore line: [/c/QtSDK/mingw/bin/gcc.exe       -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.4.0/configure --enable-languages=c,ada,c++,fortran,java,objc,obj-c++ --disable-sjlj-exceptions --enable-shared --enable-libgcj --enable-libgomp --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --prefix=/mingw --with-gmp=/mingw/src/gmp/root --with-mpfr=/mingw/src/mpfr/root --build=mingw32]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/]
+  ignore line: [c:/qtsdk/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/]
+  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/]
+  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib/]
+  ignore line: [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec.exe' '-mtune=i386']
+  link line: [ c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe -Bdynamic -o cmTryCompileExec.exe c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0 -Lc:/qtsdk/mingw/bin/../lib/gcc -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib -Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../.. --whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o]
+    arg [c:/qtsdk/mingw/bin/../libexec/gcc/mingw32/4.4.0/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec.exe] ==> ignore
+    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../crt2.o] ==> ignore
+    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtbegin.o] ==> ignore
+    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0]
+    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc]
+    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib]
+    arg [-Lc:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..] ==> dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0] ==> [c:/QtSDK/mingw/lib/gcc/mingw32/4.4.0]
+  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc] ==> [c:/QtSDK/mingw/lib/gcc]
+  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../../../mingw32/lib] ==> [c:/QtSDK/mingw/mingw32/lib]
+  collapse dir [c:/qtsdk/mingw/bin/../lib/gcc/mingw32/4.4.0/../../..] ==> [c:/QtSDK/mingw/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;user32;kernel32;advapi32;shell32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/QtSDK/mingw/lib/gcc/mingw32/4.4.0;c:/QtSDK/mingw/lib/gcc;c:/QtSDK/mingw/mingw32/lib;c:/QtSDK/mingw/lib]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG_LONG.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_LONG_LONG.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_UINT.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_UINT.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_UINT.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOIDP.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/SIZEOF_VOIDP.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CheckTypeSize/SIZEOF_VOIDP.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_W_EXTRA succeded with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -Wextra   -o CMakeFiles/cmTryCompileExec.dir/src.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -Wextra    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C SOURCE FILE Test HAVE_GCC_DESTRUCTOR succeded with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DHAVE_GCC_DESTRUCTOR   -o CMakeFiles/cmTryCompileExec.dir/src.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DHAVE_GCC_DESTRUCTOR    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo() __attribute__((destructor));
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_GCC_FORMAT succeded with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DHAVE_GCC_FORMAT   -o CMakeFiles/cmTryCompileExec.dir/src.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DHAVE_GCC_FORMAT    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo(const char *str, ...) __attribute__((format(printf, 1, 2)));
+                         int main() {return 0;}
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function powf exists in the m passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=powf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'powf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=powf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrtf exists in the m passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'sqrtf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=sqrtf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function acosf exists in the m passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=acosf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'acosf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=acosf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atanf exists in the m passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=atanf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'atanf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=atanf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fabsf exists in the m passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=fabsf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'fabsf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=fabsf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fesetround exists in the m passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=fesetround   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=fesetround    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=strtof   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=strtof    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _controlfp exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=_controlfp   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=_controlfp    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=stat   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=stat    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'strcasecmp'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=strcasecmp    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'strncasecmp'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=strncasecmp    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'snprintf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=snprintf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function 'vsnprintf'
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=vsnprintf    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the isnan exist passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+File C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef isnan
+  cmakeRequireSymbol(0,&isnan);
+#endif
+  return 0;
+}
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -D_WIN32_WINNT=0x0500     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe    -D_WIN32_WINNT=0x0500      -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function timeGetTime exists in the winmm passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.obj
+/c/QtSDK/mingw/bin/gcc.exe   -D_WIN32 -DCHECK_SHARED_FUNCTION_EXISTS=timeGetTime   -o CMakeFiles/cmTryCompileExec.dir/CheckSharedFunctionExists.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/OpenAL/cmake/CheckSharedFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe     -D_WIN32 -DCHECK_SHARED_FUNCTION_EXISTS=timeGetTime    -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files windows.h;mmsystem.h exist passed with the following output:
+Change Dir: C:/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/msysgit/msysgit/bin/make.exe "cmTryCompileExec/fast"
+make[3]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[4]: Entering directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/c/QtSDK/mingw/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /C/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec.dir/objects.a
+/c/QtSDK/mingw/bin/ar.exe cr CMakeFiles/cmTryCompileExec.dir/objects.a @CMakeFiles/cmTryCompileExec.dir/objects1.rsp
+/c/QtSDK/mingw/bin/gcc.exe         -Wl,--whole-archive CMakeFiles/cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[4]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/c/Users/psastras/Projects/osu/core/3rdparty/install/src/libopenal-build/CMakeFiles/CMakeTmp'
+
+

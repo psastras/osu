@@ -1,0 +1,29 @@
+frame.lo: frame.c config.h global.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h bit.h \
+ stream.h frame.h fixed.h timer.h layer12.h layer3.h
+
+config.h:
+
+global.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+bit.h:
+
+stream.h:
+
+frame.h:
+
+fixed.h:
+
+timer.h:
+
+layer12.h:
+
+layer3.h:

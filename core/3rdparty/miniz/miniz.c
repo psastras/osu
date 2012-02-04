@@ -120,14 +120,14 @@
 
 #ifndef MINIZ_HEADER_INCLUDED
 #define MINIZ_HEADER_INCLUDED
-
+#define __forceinline
 #include <stdlib.h>
 
 // Defines to completely disable specific portions of miniz.c:
 // If all macros here are defined the only functionality remaining will be CRC-32, adler-32, tinfl, and tdefl.
 
 // Define MINIZ_NO_STDIO to disable all usage and any functions which rely on stdio for file I/O.
-//#define MINIZ_NO_STDIO
+#define MINIZ_NO_STDIO
 
 // If MINIZ_NO_TIME is specified then the ZIP archive functions will not be able to get the current time, or
 // get/set file times.
@@ -2744,7 +2744,8 @@ void *tdefl_write_image_to_png_file_in_memory(const void *pImage, int w, int h, 
 // ------------------- .ZIP archive reading
 
 #ifndef MINIZ_NO_ARCHIVE_APIS
-
+#include <stdio.h>
+#include <stdlib.h>
 #ifndef MINIZ_NO_TIME
 #include <time.h>
 #endif
@@ -2761,7 +2762,7 @@ void *tdefl_write_image_to_png_file_in_memory(const void *pImage, int w, int h, 
 	#define MZ_FCLOSE fclose
 	#define MZ_FREAD fread
 	#define MZ_FWRITE fwrite
-	#define MZ_FTELL64 _ftelli64
+    #define MZ_FTELL64 _ftelli64
 	#define MZ_FSEEK64 _fseeki64
 	#define MZ_FILE_STAT_STRUCT _stat
 	#define MZ_FILE_STAT _stat
@@ -3738,7 +3739,7 @@ mz_bool mz_zip_reader_end(mz_zip_archive *pZip)
 
   return MZ_TRUE;
 }
-
+#ifndef MINIZ_NO_STDIO
 mz_bool mz_zip_reader_extract_file_to_file(mz_zip_archive *pZip, const char *pArchive_filename, const char *pDst_filename, mz_uint flags)
 {
   int file_index = mz_zip_reader_locate_file(pZip, pArchive_filename, NULL, flags);
@@ -3746,7 +3747,7 @@ mz_bool mz_zip_reader_extract_file_to_file(mz_zip_archive *pZip, const char *pAr
 	return MZ_FALSE;
   return mz_zip_reader_extract_to_file(pZip, file_index, pDst_filename, flags);
 }
-
+#endif
 // ------------------- .ZIP archive writing
 
 #ifndef MINIZ_NO_ARCHIVE_WRITING_APIS

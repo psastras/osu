@@ -4,17 +4,16 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/psastras/osu/core/3rdparty/OpenAL/utils/openal-info.c" "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir/utils/openal-info.o"
+  "C:/Users/psastras/Projects/osu/core/3rdparty/OpenAL/utils/openal-info.c" "C:/Users/psastras/Projects/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal-info.dir/utils/openal-info.obj"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
-  "HAVE_GCC_VISIBILITY"
-  "_GNU_SOURCE=1"
+  "_WIN32"
   )
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/psastras/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/openal.dir/DependInfo.cmake"
+  "C:/Users/psastras/Projects/osu/core/libopenal-prefix/src/libopenal-build/CMakeFiles/OpenAL32.dir/DependInfo.cmake"
   )

@@ -1,0 +1,1 @@
+cmd='C:/Users/psastras/Projects/osu/core/3rdparty/mad/configure;--prefix=C:/Users/psastras/Projects/osu/core/3rdparty/install'
