@@ -16,6 +16,8 @@ Audio::Audio(unsigned char *audiodata, size_t audiosize, bool destroydata)
 
 	m_audioData = audiodata;
 	m_audioSize = audiosize;
+
+	this->readMetadata();
 }
 
 Audio::~Audio()
@@ -23,6 +25,28 @@ Audio::~Audio()
 	delete m_soundBuffer;
 	if(m_destroyData)
 		delete m_audioData;
+}
+
+void Audio::readMetadata()
+{
+	mad_stream_init(&m_madInfo.stream);
+	mad_timer_reset(&m_madInfo.timer);
+	mad_frame_init(&m_madInfo.frame);
+	mad_stream_buffer(&m_madInfo.stream, m_audioData, m_audioSize);
+	while (1)
+	{
+		if(mad_frame_decode(&m_madInfo.frame, &m_madInfo.stream) == -1){
+			if(!MAD_RECOVERABLE(m_madInfo.stream.error)) break;
+			else continue;
+		}
+		mad_timer_add(&m_madInfo.timer, m_madInfo.frame.header.duration);
+	}
+
+	mad_frame_finish(&m_madInfo.frame);
+	mad_stream_finish(&m_madInfo.stream);
+
+	m_mdata.songlength = mad_timer_count(m_madInfo.timer, MAD_UNITS_MILLISECONDS);
+
 }
 
 void Audio::playAudio()

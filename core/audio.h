@@ -6,6 +6,11 @@
 #include <thread>
 #define MAX_AUDIO_BUFFERS 6
 
+struct AudioMetadata
+{
+	long songlength;
+};
+
 class Audio
 {
 public:
@@ -17,6 +22,7 @@ public:
 	void play();
 	bool isfinished() const;
 	long elapsedTime() const; //ms
+	AudioMetadata const& metadata() const { return m_mdata; }
 
 protected:
 
@@ -24,6 +30,7 @@ protected:
     static short downsample(signed int sample);
     void writepcm(const mad_pcm &pcm, short *buffer); //writes the pcm to the buffer
 	void playAudio();
+	void readMetadata();
 
     short *m_soundBuffer;
     ALuint m_source[1];
@@ -36,6 +43,10 @@ protected:
         mad_synth synth;
 		mad_timer_t timer;
     };
+
+
+
+	AudioMetadata m_mdata;
 
 	bool m_destroyData, m_isPlaying;
     mad_info m_madInfo;

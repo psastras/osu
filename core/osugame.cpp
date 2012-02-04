@@ -69,7 +69,8 @@ long OsuGame::elapsedTime()
 void OsuGame::update()
 {
 
-	m_renderer->draw(m_active, m_audio[m_active->general().filename]->elapsedTime());
+	m_renderer->draw(m_active, m_audio[m_active->general().filename]->elapsedTime(),
+					 m_audio[m_active->general().filename]->metadata());
 //	timeval cur_time;
 //	gettimeofday(&cur_time, 0);
 //	long elapsed = cur_time.tv_usec - m_startTime.tv_usec;

@@ -12,7 +12,7 @@ Primitive::~Primitive() {
 
 
 }
-
+#include <iostream>
 void Primitive::draw(ShaderProgram *program) {
 	GLint ids[2] = {
 		program->getAttributeLocation("in_Position"),
@@ -27,6 +27,8 @@ void Primitive::draw(ShaderProgram *program) {
 	if(ids[1] >= 0) glEnableVertexAttribArray(ids[1]);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indexId_);
 	glDrawElements(type_, idxCount_, GL_UNSIGNED_SHORT, BUFFER_OFFSET(0));
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
 
 

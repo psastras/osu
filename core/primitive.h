@@ -10,7 +10,7 @@
           **/
         struct Vertex
         {
-          Float3 p, n, t;
+		  Float3 p, t;
         };
 
         /**

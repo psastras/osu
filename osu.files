@@ -33,3 +33,5 @@ core/osurenderer.h
 core/osurenderer.cpp
 core/shaders/solid.glsl
 core/shaders/solid.h
+core/shaders/background.glsl
+core/shaders/progress.glsl

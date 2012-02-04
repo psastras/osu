@@ -3,6 +3,9 @@
 
 #include <unordered_map>
 #include <string>
+
+#include "audio.h"
+
 class Primitive;
 class BeatMap;
 class ShaderProgram;
@@ -12,7 +15,7 @@ public:
 	OsuRenderer(int width, int height);
 
 	void resize(int width, int height);
-	void draw(const BeatMap *beatmap, long elapsed) ;
+	void draw(const BeatMap *beatmap, long elapsed, const AudioMetadata &mdata) ;
 
 protected:
 	void ortho() const;

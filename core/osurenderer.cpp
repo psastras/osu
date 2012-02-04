@@ -1,25 +1,39 @@
 #include "osurenderer.h"
 #include "primitive.h"
 #include "shaders/solid.h"
+#include "shaders/background.h"
 #include <vsml.h>
 #include <GLES2/gl2.h>
 
 OsuRenderer::OsuRenderer(int width, int height)
 {
+	glClearColor(0.f, 0.f, 0.f, 0.f);
+	glDisable(GL_DEPTH_TEST);
+	glEnable(GL_CULL_FACE);
+	glCullFace(GL_FRONT);
+
 	this->resize(width, height);
 
 }
 
 void OsuRenderer::resize(int width, int height)
 {
+
+
 	m_width = width;
 	m_height = height;
 
 	this->ortho();
 
-	m_primitives["fsq"] = new Quad(Float3(1, 1, 1), Float3(m_width / 2, m_height/2, 0),
+	m_primitives["fsq"] = new Quad(Float3(10, 10, 1), Float3(m_width / 2.0, m_height / 2.0, 0),
 								   Float3(width, height, 0));
-	m_shaders["solid"] = new ShaderProgram(shaders_solid_glsl, VertexShader | FragmentShader,
+	m_primitives["prg"] = new Quad(Float3(1, 1, 1), Float3(m_width / 2.0, m_height - 2.5, 0),
+								   Float3(width, 5, 0));
+	m_primitives["dsc"] = new Quad(Float3(1, 1, 1), Float3(m_width / 2.0, m_height / 2.0, 0),
+								   Float3(100, 100, 0));
+	m_shaders["bg"] = new ShaderProgram(shaders_background_glsl, VertexShader | FragmentShader,
+									  shaders_background_glsl_len);
+	m_shaders["sl"] = new ShaderProgram(shaders_solid_glsl, VertexShader | FragmentShader,
 									  shaders_solid_glsl_len);
 
 }
@@ -32,11 +46,22 @@ void OsuRenderer::ortho() const
 	VSML::instance()->loadIdentity(VSML::MODELVIEW);
 }
 
-void OsuRenderer::draw(const BeatMap *beatmap, long elapsed)
+void OsuRenderer::draw(const BeatMap *beatmap, long elapsed,
+					   const AudioMetadata &mdata)
 {
-	glClearColor(0.f, 0.f, 0.f, 0.f);
-	glClear(GL_COLOR_BUFFER_BIT);
-	m_shaders["solid"]->bind(VSML::instance());
-	m_primitives["fsq"]->draw(m_shaders["solid"]);
-	m_shaders["solid"]->release();
+	m_shaders["bg"]->bind(VSML::instance());
+	m_primitives["fsq"]->draw(m_shaders["bg"]);
+	m_shaders["bg"]->release();
+
+	VSML::instance()->pushMatrix(VSML::MODELVIEW);
+	VSML::instance()->scale(elapsed / (float)mdata.songlength,
+							1.f, 1.f);
+	m_shaders["sl"]->bind(VSML::instance());
+	m_primitives["prg"]->draw(m_shaders["sl"]);
+	m_shaders["sl"]->release();
+	VSML::instance()->popMatrix(VSML::MODELVIEW);
+
+	m_shaders["sl"]->bind(VSML::instance());
+	m_primitives["dsc"]->draw(m_shaders["sl"]);
+	m_shaders["sl"]->release();
 }

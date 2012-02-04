@@ -24,9 +24,7 @@
    <valuemap key="ProjectExplorer.Target.BuildConfiguration.0" type="QVariantMap">
     <value key="GenericProjectManager.GenericBuildConfiguration.BuildDirectory" type="QString">/gpfs/main/home/psastras/osu</value>
     <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.0" type="QVariantMap">
-     <valuelist key="GenericProjectManager.GenericMakeStep.BuildTargets" type="QVariantList">
-      <value type="QString">all</value>
-     </valuelist>
+     <valuelist key="GenericProjectManager.GenericMakeStep.BuildTargets" type="QVariantList"/>
      <valuelist key="GenericProjectManager.GenericMakeStep.MakeArguments" type="QVariantList"/>
      <value key="GenericProjectManager.GenericMakeStep.MakeCommand" type="QString"></value>
      <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Make</value>
