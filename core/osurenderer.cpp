@@ -1,5 +1,6 @@
 #include "osurenderer.h"
 #include "primitive.h"
+#include "beatmap.h"
 #include "shaders/solid.h"
 #include "shaders/background.h"
 #include <vsml.h>
@@ -29,7 +30,7 @@ void OsuRenderer::resize(int width, int height)
 								   Float3(width, height, 0));
 	m_primitives["prg"] = new Quad(Float3(1, 1, 1), Float3(m_width / 2.0, m_height - 2.5, 0),
 								   Float3(width, 5, 0));
-	m_primitives["dsc"] = new Quad(Float3(1, 1, 1), Float3(m_width / 2.0, m_height / 2.0, 0),
+	m_primitives["dsc"] = new Disc(Float3(30, 1, 1), Float3(0.f, 0.f, 0),
 								   Float3(100, 100, 0));
 	m_shaders["bg"] = new ShaderProgram(shaders_background_glsl, VertexShader | FragmentShader,
 									  shaders_background_glsl_len);
@@ -60,8 +61,20 @@ void OsuRenderer::draw(const BeatMap *beatmap, long elapsed,
 	m_primitives["prg"]->draw(m_shaders["sl"]);
 	m_shaders["sl"]->release();
 	VSML::instance()->popMatrix(VSML::MODELVIEW);
+	const std::vector<Beat> &beats = beatmap->beats();
+	for(int i=0; i<beats.size(); i++)
+	{
+		if(abs(elapsed - beats[i].time) < 300 && elapsed > beats[i].time)
+		{
+			VSML::instance()->pushMatrix(VSML::MODELVIEW);
+			VSML::instance()->translate(beats[i].x, beats[i].y, 0.f);
 
-	m_shaders["sl"]->bind(VSML::instance());
-	m_primitives["dsc"]->draw(m_shaders["sl"]);
-	m_shaders["sl"]->release();
+			m_shaders["sl"]->bind(VSML::instance());
+			m_primitives["dsc"]->draw(m_shaders["sl"]);
+			m_shaders["sl"]->release();
+			VSML::instance()->popMatrix(VSML::MODELVIEW);
+		}
+	}
+
+
 }

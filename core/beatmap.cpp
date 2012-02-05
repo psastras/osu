@@ -110,24 +110,26 @@ void BeatMap::parseHitObject(const std::wstring &line)
     Beat b;
 	std::wstring token;
 	std::wistringstream iss(line);
-	if(std::getline(iss, token, L',')) iss >> b.x;    // xcoord
+	/*if(std::getline(iss, token, L',')) */ iss >> b.x;    // xcoord
 	if(std::getline(iss, token, L',')) iss >> b.y;    // ycoord
 	if(std::getline(iss, token, L',')) iss >> b.time; // time
 	if(std::getline(iss, token, L',')) iss >> b.type; // type
 	if(std::getline(iss, token, L',')) iss >> b.sound;// sound
 
     // further values specify slider information (@TODO: ex. bezier)
-    switch(b.type)
-    {
-    case Beat::BEAT_CIRCLE:
-        break;
-    case Beat::BEAT_SLIDER:
-        break;
-    case Beat::BEAT_SPINNER:
-        break;
-    default: // unknown type?
-        return;
-    }
+//    switch(b.type)
+//    {
+//    case Beat::BEAT_CIRCLE:
+//        break;
+//    case Beat::BEAT_SLIDER:
+//        break;
+//    case Beat::BEAT_SPINNER:
+//        break;
+//    default: // unknown type?
+//        return;
+//    }
+
+	//std::cout << b.x << "," << b.y << "," << b.time;
 
     m_beats.push_back(b);
 }

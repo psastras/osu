@@ -1,5 +1,4 @@
 #include "audio.h"
-
 #include <AL/al.h>
 #include <AL/alc.h>
 #include <thread>
@@ -80,7 +79,8 @@ void Audio::playAudio()
 		writepcm(m_madInfo.synth.pcm, m_soundBuffer);
 		alBufferData(m_buffers[numfilled++], m_madInfo.synth.pcm.channels == 2 ?
 					 AL_FORMAT_STEREO16 : AL_FORMAT_MONO16,
-					 m_soundBuffer, m_madInfo.synth.pcm.length*m_madInfo.synth.pcm.channels*sizeof(ALshort),
+					 m_soundBuffer, m_madInfo.synth.pcm.length*
+					 m_madInfo.synth.pcm.channels*sizeof(ALshort),
 					 m_madInfo.synth.pcm.samplerate);
 
 	}
@@ -107,7 +107,8 @@ void Audio::playAudio()
 			writepcm(m_madInfo.synth.pcm, m_soundBuffer);
 			alBufferData(buffer, m_madInfo.synth.pcm.channels == 2 ?
 						 AL_FORMAT_STEREO16 : AL_FORMAT_MONO16,
-						 &m_soundBuffer[0], m_madInfo.synth.pcm.length*m_madInfo.synth.pcm.channels*sizeof(ALshort),
+						 &m_soundBuffer[0], m_madInfo.synth.pcm.length*
+						 m_madInfo.synth.pcm.channels*sizeof(ALshort),
 						 m_madInfo.synth.pcm.samplerate);
 			alSourceQueueBuffers(m_source[0], 1, &buffer);
 		}
